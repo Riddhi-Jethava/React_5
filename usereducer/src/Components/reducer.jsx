@@ -1,4 +1,4 @@
-import { INCREMENT } from "./actions";
+import { DECREMENT, INCREMENT } from "./actions";
 
 const reducer = (state , action) => {
     switch(action.type){
@@ -7,6 +7,14 @@ const reducer = (state , action) => {
             prices : state.prices.map(item=>
                 item.id === action.payload
                 ? {...item , value : item.value + item.price}
+                : item
+            )
+        }
+        case DECREMENT : return {
+            ...state,
+            prices : state.prices.map(item=>
+                item.id === action.payload
+                ? {...item , value : item.value - item.price}
                 : item
             )
         }

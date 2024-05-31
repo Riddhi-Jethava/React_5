@@ -1,6 +1,6 @@
 import React, { useReducer } from 'react'
 import initialState from "./initialState";
-import { increment } from "./actions";
+import { decrement, increment } from "./actions";
 import reducer from "./reducer";
 
 function AddDetails() {
@@ -10,6 +10,10 @@ function AddDetails() {
         dispatch(increment(id))
     }
 
+    const handleDecrement = (id) => {
+        dispatch(decrement(id))
+    }
+
     const total = state.prices.reduce((sum , item) => sum + item.value , 0)
 
     return (
@@ -17,9 +21,10 @@ function AddDetails() {
             {
                 state.prices.map(item => (
                     <>
-                        <h3>Price Rs. : {item.price}</h3>
-                        <h3>Amount : {item.value}</h3>
-                        <button onClick={() => handleIncrement(item.id)}>add</button>
+                        <h5 className='mt-5'>Price Rs. : {item.price}</h5>
+                        <h5>Amount : {item.value}</h5>
+                        <button className='btn border' onClick={() => handleIncrement(item.id)}>add items</button>
+                        <button className='btn border ms-3' onClick={() => handleDecrement(item.id)}>Dlt items</button>
                     </>
                 )
                 )}
