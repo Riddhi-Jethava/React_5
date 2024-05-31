@@ -1,0 +1,22 @@
+.navbar{
+  background-color: rgb(69, 18, 18);
+}
+
+.addProduct{
+  height: 100vh;
+}
+
+.logo{
+  width: 200px;
+}
+
+form{
+  height: 284px;
+  overflow-y: scroll; /* Enable vertical scrolling */
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+form::-webkit-scrollbar {
+  display: none;  /* Safari and Chrome */
+}
