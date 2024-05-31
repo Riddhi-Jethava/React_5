@@ -1,0 +1,27 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: black;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+  background-image: url(./food2.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: transparent;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+
+}
+
+.modal-content{
+  width: 160% !important;
+  background-color: whitesmoke;
+  margin-left: -26%;
+}
+

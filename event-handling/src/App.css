@@ -1,0 +1,69 @@
+#bg-img{
+  background-image:url("https://www.titan.co.in/on/demandware.static/-/Library-Sites-TitanSharedLibrary/default/dwac5d2480/images/login/login-banner-bg-gold.jpg");
+}
+
+#main-page{
+  background-image: linear-gradient(to right, rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url("https://www.titan.co.in/dw/image/v2/BKDD_PRD/on/demandware.static/-/Library-Sites-TitanSharedLibrary/default/dw6bf24990/images/homepage/RagaWatches_D.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode:darken;
+}
+
+.logo{
+  width: 150px;
+  margin-left: 180px;
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+
+#login-border{
+  border-left: 1px solid lightgrey;
+  border-top: 1px solid lightgrey;
+  border-bottom: 1px solid lightgrey;
+}
+
+#log{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-right: 1px solid lightgrey;
+  border-bottom: 1px solid lightgrey;
+  border-top: 1px solid lightgrey;
+}
+
+#logIn p{
+  cursor: pointer;
+}
+
+#drop{
+  background-color: rgba(0, 0, 0, 0.527);
+  border: none;
+  box-shadow: 2px 2px 10px 2px lightgrey;
+  color: white;
+}
+
+#country img{
+  width: 25px;
+}
+
+.paragraph{
+  font-size: 12px;
+}
+
+#type button{
+
+}
+
+#text-deco a{
+  text-decoration: none;
+  color: black;
+}
+
+.product-page{
+  width: 350px;
+  box-shadow: 2px 2px 10px 2px lightgrey;
+}
+
+.product-page h6, p{
+  margin-top: 10px;
+}
