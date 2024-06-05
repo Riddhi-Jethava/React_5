@@ -1,0 +1,17 @@
+#weather-box{
+  width: 350px;
+  height: 500px;
+  border: 1px solid black;
+  border-radius: 30px;
+}
+
+h2{
+  width: 100%;
+  text-align: center;
+}
+
+.inputfield{
+  border-radius: 30px;
+  padding: 10px;
+  width: 80%;
+}

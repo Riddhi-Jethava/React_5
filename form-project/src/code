@@ -1,0 +1,2352 @@
+import React, { useState } from 'react'
+
+function FormPR() {
+    const[logIn , setLogIn] = useState()
+    const[formData , setFormData] = useState()
+    const[valiDate , setValidate] = useState({})
+    const[errors, setErrors]  = useState({})
+
+    function handleIn(e){
+        const {name , value} = e.value
+        setFormData({
+            ...formData,
+            [name] : value
+        })
+    }
+
+    function handleSubmit(e){
+        let errors = valiDate(formData)
+    }
+    
+  return (
+<div>
+    {
+        logIn ? (
+           <div>
+            
+           </div>
+        ) : (
+            <div className='container-fluid p-0'>
+       <div className='d-flex justify-content-center align-items-center flex-wrap' id='registration-form'>
+            <div>
+                <img src="https://www.king.com/images/gameCharacters/Candy_Crush_Soda_Kimmi_King_Wave_left.webp?_v=1xdpwjh" width="90%" height="600px" />
+            </div>
+            <figure class="swing wow animate__ animate__flipInX animated">
+                <form action="" onSubmit={handleSubmit} className='p-5'>
+                    <h4 className='mb-4'>Registration Form</h4>
+                    <label htmlFor="">Username*</label>
+                    <input type="text" name='username' value={formData.username} placeholder='' onChange={handleIn} className='form-control mb-3' id='username'/>
+
+                    <label htmlFor="">Password*</label>
+                    <input type="text" name='pasword' value={formData.password} placeholder='' onChange={handleIn} className='form-control mb-3' id='password'/>
+
+                    <label htmlFor="">Email Address*</label>
+                    <input type="text" name="email" value={formData.email} placeholder='' onChange={handleIn} className='form-control mt-1' id='email'/>
+
+                    <button type='submit' className='btn border p-2 mt-3 w-50 btn-primary'>LogIn</button>
+                </form>
+            </figure>
+        </div>
+    </div>
+        )
+    }
+</div>
+   
+  )
+}
+
+export default FormPR
+
+// {
+//     isLoggedIn ?
+//     (
+//         <>
+//         </>:
+//     )
+//     (
+//         <>
+        
+//         </>
+//     )
+// }
+
+
+<div data-test="megaMenuComponent" class="mega-menu_megamenu-component__3MJrj desktop-layout_scroll-bar__48fev"><nav id="navmenubar" class="">
+<div class="header-wrapper cdp d-flex">
+    <ul>
+        <li class="">
+            <a id="#mothersdaymenu" style={{color:"#4a2929 !important", background:"#f7e5d9"}} href="/gifts/mothers-day-lp?promo=mothers_day_tab_dt_hm">Mother's Day Gifts</a>
+        </li>
+        <li class="">
+            <a id="#birthdaymenu" href="/gifts/birthday-lp?promo=birthday_tab_dt_hm">Birthday</a>
+        </li>
+        <li class="">
+            <a id="#anniversarymenu" href="/all-gifts/anniversary-lp?promo=anniversary_tab_dt_hm">Anniversary</a>
+        </li>
+        <li class="">
+            <a id="#cakesmenu" href="/cakes-lp?promo=cakesmenu_tab_dt_hm">Cakes</a>
+        </li>
+        <li class="">
+            <a id="#flowersmenu" href="/flowers-lp?promo=flowers_tab_dt_hm">Flowers</a>
+        </li>
+        <li class="">
+            <a id="#personalizedmenu" href="/personalised-gifts-lp?promo=personalised-gifts_tab_dt_hm">Personalised</a>
+        </li>
+        <li class="">
+            <a id="#plantsmenu" href="/plants-lp?promo=plants_tab_dt_hm">Plants</a>
+        </li>
+        <li class="">
+            <a id="#chocolatesmenu" href="/chocolates-lp?promo=chocolates_tab_dt_hm">Chocolates</a>
+        </li>
+        <li class="">
+            <a id="#combosmenu" href="/combos-n-gift-hampers-lp?promo=combos_tab_dt_hm">Combos</a>
+        </li>
+        <li class="">
+            <a id="#othergiftsmenu" href="/gifts-lp?promo=other-gifts_tab_dt_hm">More</a>
+        </li>
+
+        <li class=""><a id="#occasionsmenu" href="/gifts-lp?promo=occasions_tab_dt_hm">Occasions</a></li>
+        <li class="">
+            <a id="#globalmenu" href="/info/international?promo=global_tab_dt_hm">Global</a>
+        </li>
+        <li class="">
+            <a id="#ontrend" href="/new-arrival-gifts-lp?promo=ontrend_gifts_tab_dt_hm">On Trend</a>
+        </li>
+    </ul>
+
+
+    <div id="mothersdaymenu" data-mnuname="Mothers Day" class="">
+        <div class="sub-navmenubar">
+            <section>
+
+                <span class="bolder" id="sbmenu_bldr19">By Featured</span>
+                <ul>
+                    <li><a href="/all-gifts/mothers-day-lp?promo=mday_allgifts_byfeatured_dt_hm">All Gifts</a></li>
+                    <li><a href="/fnp-exclusive-gifts/mothers-day-lp?promo=mday_fnpexclusive_byfeatured_dt_hm">FNP Exclusive</a></li>
+                    <li><a href="/thankful-gifts/mothers-day-lp?promo=mday_gratitudegifts_byfeatured_dt_hm">Gratitude Gifts</a></li>
+                    <li><a href="/quote-gifts/mothers-day-lp?promo=mday_quotegifts_byfeatured_dt_hm">Quote Gifts</a></li>
+                    <li><a href="/pastel-collection/mothers-day-lp?promo=mday_pastelcollection_byfeatured_dt_hm">Pastel Collection</a></li>
+                    <li><a href="/carnations/mothers-day-lp?promo=mday_carnations_byfeatured_dt_hm">Best of Carnations</a></li>
+                    <li><a href="/personalised-flowers/mothers-day-lp?promo=mday_personalisedflowers_byfeatured_dt_hm">Personalised Flowers</a></li>
+
+                </ul>
+            </section>
+
+
+            <section>
+                <span class="bolder" id="sbmenu_bldr21">Handpicked Gifts</span>
+                <ul>
+                    <li><a href="/flowers/mothers-day-lp?promo=mday_flowers_handpickedgifts_dt_hm">Flowers</a></li>
+                    <li><a href="/cakes/mothers-day-lp?promo=mday_cakes_handpickedgifts_dt_hm">Cakes</a></li>
+                    <li><a href="/personalised-gifts/mothers-day-lp?promo=mday_personalisedgifts_handpicked_dt_hm">Personalised Gifts</a></li>
+
+                    <li><a href="/plants/mothers-day-lp?promo=mday_plants_handpickedgifts_dt_hm">Plants</a></li>
+                    <li><a href="/gift-hampers/mothers-day-lp?promo=mday_hampers_handpickedgifts_dt_hm">Hampers</a></li>
+                    <li><a href="/chocolates/mothers-day-lp?promo=mday_chocolates_handpickedgifts_dt_hm">Chocolates</a></li>
+                    <li><a href="/combos/mothers-day-lp?promo=mday_combos_handpickedgifts_dt_hm">Combos</a></li>
+                    <li><a href="/gourmet-gifts/mothers-day-lp?promo=mday_gourmet_handpickedgifts_dt_hm">Gourmet</a></li>
+                    <li><a href="/fashion-accessories/mothers-day-lp?promo=mday_fashionnaccessories_handpickedgifts_dt_hm">Fashion &amp; Accessories</a></li>
+                    <li><a href="/home-living-gifts/mothers-day-lp?promo=mday_homenliving_handpickedgifts_dt_hm">Home n Living</a></li>
+                    <li><a href="/cosmetics-n-spa-hampers/mothers-day-lp?promo=mday_groominghampers_handpickedgifts_dt_hm">Grooming Hampers</a></li>
+
+                </ul>
+            </section>
+
+            <section>
+                <span class="bolder" id="sbmenu_bldr21">Gifts for Adorable Moms</span>
+                <ul>
+
+                    <li><a href="/gifts/for-mother-lp?promo=mday_mothers_giftsforeverymom_dt_hm">Mother</a></li>
+                    <li><a href="/gifts/for-mother-in-law-lp?promo=mday_motherinlaw_giftsforeverymom_dt_hm">Mother in Law</a></li>
+                    <li><a href="/gifts/for-grandmother-lp?promo=mday_grandmother_giftsforeverymom_dt_hm">Grandmother</a></li>
+                    <li><a href="/gifts/for-motherly-figure-lp?promo=mday_motherlyfigure_giftsforeverymom_dt_hm">Motherly Figure</a></li>
+                    <li><a href="/gifts/for-mom-to-be-lp?promo=mday_momtobe_giftsforeverymom_dt_hm">Mom to be</a></li>
+                    <li><a href="/gifts/for-new-mom-lp?promo=mday_newmoms_giftsforeverymom_dt_hm">New Moms</a></li>
+                    <li><a href="/gifts/for-pet-mom-lp?promo=mday_petmoms_giftsforeverymom_dt_hm">Pet Moms</a></li>
+
+                </ul>
+            </section>
+
+            <section>
+                <span class="bolder" id="sbmenu_bldr21">Surprises for Every Mom</span>
+                <ul>
+                    <li><a href="/gifts/for-food-loving-mothers-lp?promo=mday_masterchef_surprisesforeverymom_dt_hm">Master Chef</a></li>
+                    <li><a href="/gifts/for-plant-loving-mothers-lp?promo=mday_naturelover_surprisesforeverymom_dt_hm">Nature Lover</a></li>
+                    <li><a href="/gifts/for-writer-mom-lp?promo=mday_writermom_surprisesforeverymom_dt_hm">Writer Mom</a></li>
+                    <li><a href="/gifts/for-working-mothers-lp?promo=mday_corporatequeen_surprisesforeverymom_dt_hm">Workplace Queen</a></li>
+                    <li><a href="/gifts/for-spiritual-mothers-lp?promo=mday_spiritualmom_surprisesforeverymom_dt_hm">Spiritual Mom</a></li>
+                    <li><a href="/gifts/for-fashion-n-wellness-mothers-lp?promo=mday_divamom_surprisesforeverymom_dt_hm">Diva Mom</a></li>
+                    <li><a href="/gifts/for-home-maker-mothers-lp?promo=mday_homedesigner_surprisesforeverymom_dt_hm">Home Designer</a></li>
+                    <li><a href="/gifts/for-artistic-mothers-lp?promo=mday_artistmom_surprisesforeverymom_dt_hm">Artist Mom</a></li>
+                </ul>
+            </section>
+
+            <section>
+                <span class="bolder" id="sbmenu_bldr20">Shop By Price</span>
+                <ul>
+                    <li><a href="/all-gifts/mothers-day-lp?=aAS&amp;fq-listprice=0.0+TO+600.0&amp;sort=listprice_fnp.com_INR%7Casc?promo=mday_under699_shopbyprice_dt_hm">Under 699</a></li>
+                    <li><a href="/all-gifts/mothers-day-lp?=aAS&amp;fq-listprice=0.0+TO+999.0&amp;sort=listprice_fnp.com_INR%7Cdesc?promo=mday_under999_shopbyprice_dt_hm">Under 999</a></li>
+                    <li><a href="/all-gifts/mothers-day-lp?=aAS&amp;fq-listprice=0.0+TO+1499.0&amp;sort=listprice_fnp.com_INR%7Cdesc?promo=mday_under1499_shopbyprice_dt_hm">Under 1499</a></li>
+                    <li><a href="/all-gifts/mothers-day-lp?=aAS&amp;fq-listprice=1500+TO+1000000.0&amp;sort=listprice_fnp.com_INR%7Cdesc?promo=mday_premiumgifts_shopbyprice_dt_hm">Premium Gifts</a></li>
+                    <span class="bolder" style={{marginTop:"20px"}} id="sbmenu_bldr21">Personalised Gifts</span>
+                    <li><a href="/personalised-mugs/mothers-day-lp?promo=mday_personalised_mugs_dt_hm">Mugs</a></li>
+                    <li><a href="/photo-frames/mothers-day-lp?promo=mday_personalised_photoframes_dt_hm">PhotoFrames</a></li>
+                    <li><a href="/personalised-flowers/mothers-day-lp?promo=mday_personalised_flowers_dt_hm">Flowers</a></li>
+                    <li><a href="/personalised-accessories/mothers-day-lp?promo=mday_Personalised_accessories_dt_hm">Accessories</a></li>
+                </ul>
+            </section>
+            <section>
+                <span class="bolder" id="sbmenu_bldr20">Send Abroad</span>
+                <ul>
+                    <li><a href="/usa/gifts/mothers-day-lp?promo=mday_usa_intl_dt_hm">USA</a></li>
+                    <li><a href="/uk/gifts/mothers-day-lp?promo=mday_uk_intl_dt_hm">UK</a></li>
+                    <li><a href="/canada/gifts/mothers-day-lp?promo=mday_canada_intl_dt_hm">Canada</a></li>
+                    <li><a href="/uae/gifts/mothers-day-lp?promo=mday_uae_intl_dt_hm">UAE</a></li>
+                    <li><a href="/australia/gifts/mothers-day-lp?promo=mday_australia_intl_dt_hm">Australia</a></li>
+                    <li><a href="/info/mothers-day-international?promo=mday_othercountries_intl_dt_hm">Other Countries</a></li>
+
+                </ul>
+            </section>
+
+            <section class="navBanner">
+                <a href="/all-gifts/mothers-day-lp?promo=mday_desk_navigation_banner"><img loading="lazy" src="/assets/images/custom/nav-banners/Mothers-day-1.jpg" alt="mothers day Gifts" /></a>
+            </section>
+        </div>
+    </div>
+
+    <div id="ontrend" data-mnuname="Bhai Dooj" class="">
+        <div class="sub-navmenubar">
+            <section>
+                <span class="bolder" id="sbmenu_bldr1">Trendsetter New Arrivals</span>
+                <ul>
+                    <li>
+                        <a href="/new-arrival-gifts-lp?promo=allnewarrivalsgifts_trendsetternewarrivals_dt_hm">All New Arrivals Gifts</a>
+                    </li>
+                    <li>
+                        <a href="/mango-cakes-lp?promo=mangocakes_trendsetternewarrivals_dt_hm">Mango Cakes</a>
+                    </li>
+                    <li>
+                        <a href="/ram-mandir-gifts-lp?promo=rammandirgifts_trendsetternewarrivals_dt_hm">Ram Mandir
+                            Gifts</a>
+                    </li>
+                    <li>
+                        <a href="/bento-cakes-lp?promo=bentocakes_trendsetternewarrivals_dt_hm">Bento Cakes</a>
+                    </li>
+                    <li>
+                        <a href="/neon-light-gifts-lp?promo=neonlights_trendsetternewarrivals_dt_hm">Neon Lights</a>
+                    </li>
+                    <li>
+                        <a href="/personalised-flowers-lp?promo=personalisedflowers_trendsetternewarrivals_dt_hm">Personalised
+                            Flowers</a>
+                    </li>
+                    <li>
+                        <a href="/standing-flower-bouquets-lp?promo=standingflowerbouqets_trendsetternewarrivals_dt_hm">Standing
+                            Flower Bouqets</a>
+                    </li>
+                    <li>
+                        <a href="/premium-gift-hampers-lp?promo=premiumgifthampers_trendsetternewarrivals_dt_hm">Premium
+                            Gift Hampers</a>
+                    </li>
+                    <li>
+                        <a href="/premium-chocolates-lp?promo=premiumchocolates_trendsetternewarrivals_dt_hm">Premium
+                            Chocolates</a>
+                    </li>
+
+                </ul>
+            </section>
+            <section>
+                <span class="bolder" id="sbmenu_bldr1">Thoughtfully Expressive Gifts</span>
+                <ul>
+                    <li>
+                        <a href="/gifts/love-n-romance-lp?promo=love&amp;romance_thoughtfullyexpressedgifts_dt_hm">Love
+                            &amp; Romance</a>
+                    </li>
+                    <li>
+                        <a href="/gifts/congratulations-lp?promo=congratulations_thoughtfullyexpressedgifts_dt_hm">Congratulations</a>
+                    </li>
+                    <li>
+                        <a href="/gifts/i-am-sorry-lp?promo=iamsorry_thoughtfullycreativegifts_dt_hm">I Am Sorry</a>
+                    </li>
+                    <li>
+                        <a href="/gifts/miss-you-lp?promo=missyou_thoughtfullycuratedgifts_dt_hm">Miss You</a>
+                    </li>
+                    <li>
+                        <a href="/gifts/best-wishes-lp?promo=bestwishes_thoughtfullycuratedgifts_dt_hm">Best
+                            Wishes</a>
+                    </li>
+                    <li>
+                        <a href="/bakery-items-lp?promo=forsmallcelebrations_thoughtfullycuratedgifts_dt_hm">For
+                            Small Celebrations</a>
+                    </li>
+                    <li>
+                        <a href="/gifts/get-well-soon-lp?promo=getwellsoon_thoughtfullycuratedgifts_dt_hm">Get Well
+                            Soon</a>
+                    </li>
+                    <li>
+                        <a href="/gifts/thank-you-lp?promo=thankyou_thoughtfullycuratedgifts_dt_hm">Thank You</a>
+                    </li>
+                </ul>
+            </section>
+            <section>
+                <span class="bolder" id="sbmenu_bldr1">Interests in Trend</span>
+                <ul>
+                    <li>
+                        <a href="/plants-bestsellers-lp?promo=gardening_interestsintrend_dt_hm">Gardening</a>
+                    </li>
+                    <li>
+                        <a href="/home-decor-lp?promo=homedecor_interestsintrend_dt_hm">Home Decor</a>
+                    </li>
+                    <li>
+                        <a href="/gifts/for-travel-lovers-lp?promo=travel_interestintrend_dt_hm">Travel</a>
+                    </li>
+                    <li>
+                        <a href="/gifts/for-music-lovers-lp?promo=music_interestintrend_dt_hm">Music</a>
+                    </li>
+                    <li>
+                        <a href="/gifts/for-fitness-freaks-lp?promo=health&amp;fitness_interestintrend_dt_hm">Health &amp;
+                            Fitness</a>
+                    </li>
+                    <li>
+                        <a href="/spiritual-gifts-lp?promo=spirituality_interestintrend_dt_hm">Spirituality</a>
+                    </li>
+                </ul>
+            </section>
+            <section>
+                <span class="bolder" id="sbmenu_bldr1">Gifts for Everyone</span>
+                <ul>
+                    <li>
+                        <a href="/gifts/for-him-lp?promo=forhim_giftsforeveryone_dt_hm">For Him</a>
+                    </li>
+                    <li>
+                        <a href="/gifts/for-her-lp?promo=forher_giftsforeveryone_dt_hm">For Her</a>
+                    </li>
+                    <li>
+                        <a href="/gifts/for-kids-lp?promo=forkids_giftsforeveryone_dt_hm">For Kids</a>
+                    </li>
+                    <li>
+                        <a href="/gifts/for-friend-lp?promo=forfriends_giftsforeveryone_dt_hm">For Friends</a>
+                    </li>
+                    <li>
+                        <a href="/gifts/for-parents-lp?promo=forparents_giftsforeveryone_dt_hm">For Parents</a>
+                    </li>
+                    <li>
+                        <a href="/gifts/for-couples-lp?promo=forcouples_giftsforeveryone_dt_hm">For Couples</a>
+                    </li>
+                    <li>
+                        <a href="/gifts/for-pet-lovers-lp?promo=forpetlover_giftsforeveryone_dt_hm">For Pet Lover</a>
+                    </li>
+                </ul>
+            </section>
+
+            <section class="navBanner">
+                <a href="/premium-gifts-lp?promo=banner1_OnTrend">
+                    <img loading="lazy" src="/assets/images/custom/nav-banners/Navigation-banner_Premium-Gifts_1 (1) (1).jpg" alt="Birthday Gifts" />
+                </a>
+            </section>
+        </div>
+    </div>
+
+
+
+
+    <div id="birthdaymenu" data-mnuname="Birthday" class="">
+        <div class="sub-navmenubar">
+            <section>
+                <span class="bolder" id="sbmenu_bldr1">By Featured</span>
+                <ul>
+                    <li>
+                        <a href="/gifts/birthday-lp?promo=birthdaymenu_dt_hm">All Gifts</a>
+                    </li>
+                    <li>
+                        <a href="/gifts-bestsellers/birthday-lp?promo=birthdaymenu_dt_hm">Best Sellers</a>
+                    </li>
+                    <li>
+                        <a href="/midnight-delivery-gifts-lp?promo=birthdaymenu_dt_hm">Midnight Delivery</a>
+                    </li>
+                    <li>
+                        <a href="/premium-gifts/birthday-lp?promo=birthdaymenu_dt_hm">Premium Gifts</a>
+                    </li>
+                    <li>
+                        <a href="/new-arrival-gifts/birthday-lp?promo=birthdaymenu_dt_hm">New Arrivals</a>
+                    </li>
+                    <li>
+                        <a href="/unusual-gifts-lp?promo=birthdaymenu_dt_hm">Unusual Gifts</a>
+                    </li>
+                    <li>
+                        <a href="/return-gifts-lp?promo=birthdaymenu_dt_hm">Return Gifts</a>
+                    </li>
+                </ul>
+            </section>
+            <section>
+                <span class="bolder" id="sbmenu_bldr2">GIFTS - BY CHOICE</span>
+                <ul>
+                    <li>
+                        <a href="/cakes/birthday-lp?promo=birthdaymenu_dt_hm">Cakes</a>
+                    </li>
+                    <li>
+                        <a href="/flowers/birthday-lp?promo=birthdaymenu_dt_hm">Flowers</a>
+                    </li>
+
+                    <li>
+                        <a href="/chocolates/birthday-lp?promo=birthdaymenu_dt_hm">Chocolates
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/plants/birthday-lp?promo=birthdaymenu_dt_hm">Plants</a>
+                    </li>
+                    <li>
+                        <a href="/personalised-gifts/birthday-lp?promo=birthdaymenu_dt_hm">Personalised Gifts</a>
+                    </li>
+                    <li>
+                        <a href="/flowers-n-cakes-lp?promo=birthdaymenu_dt_hm">Flowers N Cakes</a>
+                    </li>
+                    <li>
+                        <a href="/combos/birthday-lp?promo=birthdaymenu_dt_hm">Combos</a>
+                    </li>
+
+                    <li>
+                        <a href="/gift-hampers/birthday-lp?promo=birthdaymenu_dt_hm">Gift Hampers</a>
+                    </li>
+                    <li>
+                        <a href="/flowers-n-chocolates-lp?promo=birthdaymenu_dt_hm">Flowers N Chocolates</a>
+                    </li>
+                </ul>
+            </section>
+            <section>
+                <span class="bolder" id="sbmenu_bldr1">Gifts By Persona</span>
+                <ul>
+                    <li>
+                        <a href="/gifts/birthday/for-music-lovers-lp?promo=birthdaymenu_dt_hm">Gifts for Music
+                            Lover</a>
+                    </li>
+                    <li>
+                        <a href="/gifts/birthday/for-travel-lovers-lp?promo=birthdaymenu_dt_hm">Gifts for Travel
+                            Lover</a>
+                    </li>
+                    <li>
+                        <a href="/gifts/birthday/nature-lovers-lp?promo=birthdaymenu_dt_hm">Gifts for Nature
+                            Lover</a>
+                    </li>
+                    <li>
+                        <a href="/gifts/birthday/for-foodie-lp?promo=birthdaymenu_dt_hm">Gifts for Foodies</a>
+                    </li>
+                </ul>
+            </section>
+
+            <section>
+                <span class="bolder" id="sbmenu_bldr2">GIFTS BY AGE</span>
+                <ul>
+                    <li>
+                        <a href="/gifts/1st-birthday-lp?promo=birthdaymenu_dt_hm">1st Birthday</a>
+                    </li>
+                    <li>
+                        <a href="/gifts/10th-birthday-lp?promo=birthdaymenu_dt_hm">10th Birthday</a>
+                    </li>
+
+                    <li>
+                        <a href="/gifts/18th-birthday-lp?promo=birthdaymenu_dt_hm">18th Birthday
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/gifts/50th-birthday-lp?promo=birthdaymenu_dt_hm">50th Birthday</a>
+                    </li>
+                </ul>
+            </section>
+            <section>
+                <span class="bolder" id="sbmenu_bldr2">GIFTS BY PRICE</span>
+                <ul>
+                    <li>
+                        <a href="/gifts/birthday-lp?birthdaymenu=&amp;fq-listprice=500.0 TO 999.0">Gifts Rs500 -
+                            Rs1000</a>
+                    </li>
+                    <li>
+                        <a href="/gifts/birthday-lp?birthdaymenu=&amp;fq-listprice=1000.0 TO 1499.0&amp;fq-listprice=1500.0 TO 1999.0">Gifts
+                            Rs1000 - Rs2000</a>
+                    </li>
+                    <li>
+                        <a href="/gifts/birthday-lp?birthdaymeny=&amp;fq-listprice=2000.0 TO 2499.0&amp;fq-listprice=2500.0 TO 2999.0&amp;fq-listprice=3000.0 TO  * ">Gifts
+                            above Rs2000</a>
+                    </li>
+                </ul>
+            </section>
+
+            <section>
+                <span class="bolder" id="sbmenu_bldr2">BY New</span>
+                <ul>
+                    <li>
+                        <a href="/decoration-services/birthday-lp?promo=birthdaymenu_dt_hm">Balloon Decor N
+                            Bouquets</a>
+                    </li>
+
+                    <li>
+                        <a href="/experiential-gifts/birthday-lp?promo=birthdaymenu_dt_hm">Experiential Gifts</a>
+                    </li>
+                    <li>
+                        <a href="/exotic-flowers-lp?promo=birthdaymenu_dt_hm">Exotic Flowers</a>
+                    </li>
+                    <li>
+                        <a href="/toys-n-games-lp?promo=birthdaymenu_dt_hm">Toys n Games</a>
+                    </li>
+                    <li>
+                        <a href="/gifts-n-guitarist-service/birthday-lp?promo=birthdaymenu_dt_hm">Gifts N
+                            Guitarist</a>
+                    </li>
+                    <li>
+                        <a href="/electronics-lp?promo=birthdaymenu_dt_hm">Electronics N Accessories</a>
+                    </li>
+                    <li>
+                        <a href="/jewellery-lp?promo=birthdaymenu_dt_hm">Jewellery N Accessories</a>
+                    </li>
+                    <li>
+                        <a href="/spiritual-gifts-lp?promo=birthdaymenu_dt_hm">Spiritual Gifts</a>
+                    </li>
+                    <li>
+                        <a href="/gifts-mall-lp?promo=birthdaymenu_dt_hm">Gift Mall</a>
+                    </li>
+                </ul>
+            </section>
+
+            <section class="navBanner">
+                <a href="/gifts/birthday-lp?promo=birthdaymenu_dt_hm_banner"><img loading="lazy" src="/assets/images/custom/nav-banners/Navigation-banner_Birthday_feb.jpg" alt="Birthday Gifts" /></a>
+            </section>
+        </div>
+    </div>
+    <div id="cakesmenu" data-mnuname="Cakes" class="">
+        <div class="sub-navmenubar">
+            <section>
+                <span class="bolder" id="sbmenu_bldr4">BY FEATURED</span>
+                <ul>
+                    <li><a href="/all-cakes-lp?promo=cakesmenu_dt_hm">All Cakes</a></li>
+                    <li><a href="/mango-cakes-lp?promo=cakesmenu_dt_hm">Mango Cakes<span class="new">New</span></a></li>
+                    <li>
+                        <a href="/cakes-bestsellers-lp?promo=cakesmenu_dt_hm">Best Sellers</a>
+                    </li>
+                    <li>
+                        <a href="/cakes-same-day-delivery-lp?promo=cakesmenu_dt_hm">Same Day Delivery</a>
+                    </li>
+                    <li>
+                        <a href="/new-arrival-cakes-lp?promo=cakesmenu_dt_hm">New Arrivals</a>
+                    </li>
+                    <li>
+                        <a href="/cakes-midnight-delivery-lp?promo=cakesmenu_dt_hm">Midnight Delivery</a>
+                    </li>
+                    <li>
+                        <a href="/flowers-n-cakes-lp?promo=cakesmenu_dt_hm">Flowers N Cakes</a>
+                    </li>
+                    <li>
+                        <a href="/cake-combos-lp?promo=cakesmenu_dt_hm">Cake Combos</a>
+                    </li>
+                    <li>
+                        <a href="/cakes-n-chocolates-lp?promo=cakesmenu_dt_hm">Cake With Chocolates</a>
+                    </li>
+                    <li>
+                        <a href="/cakes-n-plants-lp?promo=cakesmenu_dt_hm">Cake With Plants</a>
+                    </li>
+                    <li>
+                        <a href="/cakes-n-guitarist-service-lp?promo=cakesmenu_dt_hm">Cakes and Guitarist</a>
+                    </li>
+                </ul>
+            </section>
+            <section>
+                <span class="bolder" id="sbmenu_bldr5">BY OCCASION</span>
+                <ul>
+                    <li>
+                        <a href="/cakes/birthday-lp?promo=cakesmenu_dt_hm">Birthday Cakes</a>
+                    </li>
+                    <li>
+                        <a href="/cakes/birthday/for-kids-lp?promo=cakesmenu_dt_hm">Kid's Birthday Cakes</a>
+                    </li>
+                    <li>
+                        <a href="/cakes/anniversary-lp?promo=cakesmenu_dt_hm">Anniversary Cakes</a>
+                    </li>
+                    <li>
+                        <a href="/cakes/1st-anniversary-lp?promo=cakesmenu_dt_hm">1st Anniversary</a>
+                    </li>
+                    <li>
+                        <a href="/cakes/25th-anniversary-lp?promo=cakesmenu_dt_hm">25th Anniversary</a>
+                    </li>
+                    <li>
+                        <a href="/cakes/wedding-lp?promo=cakesmenu_dt_hm">Wedding Cakes</a>
+                    </li>
+                    <li>
+                        <a href="/cakes/congratulations-lp?promo=cakesmenu_dt_hm">Congratulations</a>
+                    </li>
+                    <li>
+                        <a href="/bakery-items-lp?promo=cakesmenu_dt_hm">Make Small Celebrations Big</a>
+                    </li>
+                </ul>
+            </section>
+            <section>
+                <span class="bolder" id="sbmenu_bldr6">BY FLAVOURS</span>
+                <ul>
+                    <li>
+                        <a href="/truffle-cakes-lp?promo=cakesmenu_dt_hm">Truffle Cakes</a>
+                    </li>
+                    <li>
+                        <a href="/chocolate-cakes-lp?promo=cakesmenu_dt_hm">Chocolate Cakes</a>
+                    </li>
+                    <li>
+                        <a href="/black-forest-cakes-lp?promo=cakesmenu_dt_hm">Black Forest Cakes</a>
+                    </li>
+                    <li>
+                        <a href="/butterscotch-cakes-lp?promo=cakesmenu_dt_hm">Butterscotch Cakes</a>
+                    </li>
+                    <li>
+                        <a href="/caramel-cakes-lp?promo=cakesmenu_dt_hm">Caramel Cakes</a>
+                    </li>
+                    <li>
+                        <a href="/coffee-cakes-lp?promo=cakesmenu_dt_hm">Coffee Cakes</a>
+                    </li>
+                    <li>
+                        <a href="/walnut-cakes-lp?promo=cakesmenu_dt_hm">Walnut Cakes</a>
+                    </li>
+
+                    <li>
+                        <a href="/pineapple-cakes-lp?promo=cakesmenu_dt_hm">Pineapple Cakes</a>
+                    </li>
+                    <li>
+                        <a href="/fresh-fruit-cakes-lp?promo=cakesmenu_dt_hm">Fresh Fruit Cakes</a>
+                    </li>
+
+                    <li>
+                        <a href="/pinata-cakes-lp?promo=cakesmenu_dt_hm">Pinata Cakes</a>
+                    </li>
+                </ul>
+            </section>
+            <section>
+                <span class="bolder" id="sbmenu_bldr6">BY TYPES</span>
+                <ul>
+                    <li>
+                        <a href="/bento-cakes-lp?promo=cakesmenu_dt_hm">Bento Cakes <span class="new">New</span></a>
+                    </li>
+                    <li>
+                        <a href="/eggless-cakes-lp?promo=cakesmenu_dt_hm">Eggless Cakes</a>
+                    </li>
+
+                    <li>
+                        <a href="/photo-cakes-lp?promo=cakesmenu_dt_hm">Photo Cakes</a>
+                    </li>
+                    <li>
+                        <a href="/designer-cakes-lp?promo=cakesmenu_dt_hm">Designer Cakes</a>
+                    </li>
+                    <li>
+                        <a href="/fondant-cakes-lp?promo=cakesmenu_dt_hm">Fondant Cakes</a>
+                    </li>
+                    <li>
+                        <a href="/fusion-cakes-lp?promo=cakesmenu_dt_hm">Fusion Cakes</a>
+                    </li>
+                    <li><a href="/cup-cakes-lp?promo=cakesmenu_dt_hm">Cup Cakes</a></li>
+
+                    <li><a href="/dry-cakes-lp?promo=cakesmenu_dt_hm">Dry Cakes</a></li>
+
+                    <li>
+                        <a href="/cake-in-a-jar-lp?promo=cakesmenu_dt_hm">Jar Cakes</a>
+                    </li>
+                </ul>
+            </section>
+
+            <section class="navBanner">
+                <a href="/eggless-cakes-lp?promo=cakesmenu_dt_hm_banner"><img loading="lazy" src="/assets/images/custom/nav-banners/Navigation-banner_Egless-Cakes.jpg" alt="Cakes online" /></a>
+            </section>
+        </div>
+    </div>
+    <div id="flowersmenu" data-mnuname="Flowers" class="">
+        <div class="sub-navmenubar">
+            <section>
+                <span class="bolder" id="sbmenu_bldr9">BY FEATURED</span>
+                <ul>
+                    <li>
+                        <a href="/flowers-lp?promo=flowersmenu_dt_hm">All Flowers</a>
+                    </li>
+                    <li>
+                        <a href="/flowers-bestsellers-lp?promo=flowersmenu_dt_hm">Best Sellers</a>
+                    </li>
+
+                    <li>
+                        <a href="/personalised-flowers-lp?promo=flowersmenu_dt_hm">Personalised Flowers<span class="new">New</span></a>
+                    </li>
+
+                    <li>
+                        <a href="/zodiac-flowers-lp?promo=flowersmenu_dt_hm">Zodiac Flowers</a>
+                    </li>
+                    <li>
+                        <a href="/forever-flowers-lp?promo=flowersmenu_dt_hm">Dried N Preserved Flowers<span class="new">New</span></a>
+                    </li>
+                    <li>
+                        <a href="/standing-flower-bouquets-lp?promo=flowersmenu_dt_hm">Standing Flower Bouquets</a>
+                    </li>
+                    <li>
+                        <a href="/same-day-delivery-flowers-lp?promo=flowersmenu_dt_hm">Same Day Delivery</a>
+                    </li>
+                    <li>
+                        <a href="/premium-flowers-lp?promo=flowersmenu_dt_hm">Premium Flowers</a>
+                    </li>
+                    <li>
+                        <a href="/new-arrival-flowers-lp?promo=flowersmenu_dt_hm">New Arrivals</a>
+                    </li>
+                    <li>
+                        <a href="/flowers-n-cakes-lp?promo=flowersmenu_dt_hm">Flowers N Cakes</a>
+                    </li>
+                    <li>
+                        <a href="/flowers-n-chocolates-lp?promo=flowersmenu_dt_hm">Flowers N Chocolates</a>
+                    </li>
+                    <li>
+                        <a href="/flowers-n-guitarist-service-lp?promo=flowersmenu_dt_hm">Flowers &amp; Guitarist</a>
+                    </li>
+                </ul>
+            </section>
+            <section>
+                <span class="bolder" id="sbmenu_bldr10">By Occasions</span>
+                <ul>
+                    <li>
+                        <a href="/flowers/birthday-lp?promo=flowersmenu_dt_hm">Birthday</a>
+                    </li>
+                    <li>
+                        <a href="/flowers/anniversary-lp?promo=flowersmenu_dt_hm">Anniversary</a>
+                    </li>
+                    <li>
+                        <a href="/flowers/wedding-lp?promo=flowersmenu_dt_hm">Wedding </a>
+                    </li>
+                    <li>
+                        <a href="/flowers/love-n-romance-lp?promo=flowersmenu_dt_hm">Love N Romance</a>
+                    </li>
+                    <li>
+                        <a href="/flowers/congratulations-lp?promo=flowersmenu_dt_hm">Congratulations</a>
+                    </li>
+                    <li>
+                        <a href="/flowers/sympathy-n-funeral-lp?promo=flowersmenu_dt_hm">Sympathy N Funeral</a>
+                    </li>
+                </ul>
+            </section>
+            <section>
+                <span class="bolder" id="sbmenu_bldr11">BY TYPES</span>
+                <ul>
+                    <li><a href="/roses-lp?promo=flowersmenu_dt_hm">Roses</a></li>
+                    <li>
+                        <a href="/carnations-lp?promo=flowersmenu_dt_hm">Carnations</a>
+                    </li>
+                    <li><a href="/orchids-lp?promo=flowersmenu_dt_hm">Orchids</a></li>
+                    <li><a href="/gerberas-lp?promo=flowersmenu_dt_hm">Gerberas</a></li>
+                    <li><a href="/lilies-lp?promo=flowersmenu_dt_hm">Lilies</a></li>
+                    <li>
+                        <a href="/mixed-flowers-lp?promo=flowersmenu_dt_hm">Mixed Flowers</a>
+                    </li>
+                    <li>
+                        <a href="/exotic-flowers-lp?promo=flowersmenu_dt_hm">Exotic Flowers</a>
+                    </li>
+                </ul>
+            </section>
+            <section>
+                <span class="bolder" id="sbmenu_bldr11">BY COLLECTIONS</span>
+                <ul>
+                    <li>
+                        <a href="/flowers-subscription-lp?promo=flowersmenu_dt_hm">Flowers Subscription<span class="new">New</span></a>
+                    </li>
+                    <li>
+                        <a href="/flower-bouquets-lp?promo=flowersmenu_dt_hm">Flower Bouquets</a>
+                    </li>
+                    <li>
+                        <a href="/flower-arrangements-lp?promo=flowersmenu_dt_hm">Flower Arrangements</a>
+                    </li>
+                    <li>
+                        <a href="/flagship-collection-lp?promo=flowersmenu_dt_hm">Flagship Collections</a>
+                    </li>
+                </ul>
+            </section>
+            <section>
+                <span class="bolder" id="sbmenu_bldr11">BY CITIES</span>
+                <ul>
+                    <li>
+                        <a href="/flowers/delhi-lp?promo=flowersmenu_dt_hm">Delhi NCR</a>
+                    </li>
+                    <li>
+                        <a href="/flowers/bengaluru-lp?promo=flowersmenu_dt_hm">Bengaluru
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/flowers/mumbai-lp?promo=flowersmenu_dt_hm">Mumbai </a>
+                    </li>
+                    <li>
+                        <a href="/flowers/pune-lp?promo=flowersmenu_dt_hm">Pune </a>
+                    </li>
+                    <li>
+                        <a href="/flowers/hyderabad-lp?promo=flowersmenu_dt_hm">Hyderabad
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/flowers/kolkata-lp?promo=flowersmenu_dt_hm">Kolkata </a>
+                    </li>
+                    <li>
+                        <a href="/flowers/chennai-lp?promo=flowersmenu_dt_hm">Chennai </a>
+                    </li>
+                    <li>
+                        <a href="/flowers/lucknow-lp?promo=flowersmenu_dt_hm">Lucknow </a>
+                    </li>
+                    <li>
+                        <a href="/flowers/ahmedabad-lp?promo=flowersmenu_dt_hm">Ahmedabad
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/flowers?promo=flowersmenu_dt_hm">All Other Cities</a>
+                    </li>
+                </ul>
+            </section>
+            <section class="navBanner">
+                <a href="/flowers-lp?promo=flowersmenu_dt_hm_banner"><img loading="lazy" src="/assets/images/custom/nav-banners/Navigation-banner_Flowers_feb.jpg" alt="All Flowers" /></a>
+            </section>
+        </div>
+    </div>
+    <div id="chocolatesmenu" data-mnuname="Chocolates" class="">
+        <div class="sub-navmenubar">
+            <section>
+                <span class="bolder" id="sbmenu_bldr14">BY FEATURED</span>
+                <ul>
+                    <li>
+                        <a href="/chocolates-lp?promo=chocolatesmenu_dt_hm">All Chocolates</a>
+                    </li>
+                    <li>
+                        <a href="/gifts/chocolate-day-lp??promo=chocolatesmenu_dt_hm">Valentine's Chocolates</a>
+                    </li>
+                    <li>
+                        <a href="/chocolates-bestsellers-lp?promo=chocolatesmenu_dt_hm">Best Sellers</a>
+                    </li>
+                    <li>
+                        <a href="/chocolates-same-day-delivery-lp?promo=chocolatesmenu_dt_hm">Same Day
+                            Chocolates</a>
+                    </li>
+                    <li>
+                        <a href="/new-arrival-chocolates-lp?promo=chocolatesmenu_dt_hm">New Arrivals</a>
+                    </li>
+                    <li>
+                        <a href="/premium-chocolates-lp?promo=chocolatesmenu_dt_hm">Premium Chocolates <span class="new">NEW</span></a>
+                    </li>
+                    <span class="bolder" style={{marginTop:"20px" }} id="sbmenu_bldr14">BY TYPES</span>
+
+                    <li>
+                        <a href="/milk-chocolates-lp?promo=chocolatesmenu_dt_hm">Milk Chocolates</a>
+                    </li>
+                    <li>
+                        <a href="/dark-chocolates-lp?promo=chocolatesmenu_dt_hm">Dark Chocolates</a>
+                    </li>
+                    <li>
+                        <a href="/personalised-chocolates-lp?promo=chocolatesmenu_dt_hm">Personalised Chocolates</a>
+                    </li>
+                    <li>
+                        <a href="/sugar-free-chocolates-lp?promo=chocolatesmenu_dt_hm">Sugar Free Chocolates</a>
+                    </li>
+                    <li>
+                        <a href="/handmade-chocolates-lp?promo=chocolatesmenu_dt_hm">Handmade Chocolates</a>
+                    </li>
+                </ul>
+            </section>
+            <section>
+                <span class="bolder" id="sbmenu_bldr15">By Choice</span>
+
+                <ul>
+                    <li>
+                        <a href="/chocolate-bouquet-lp?promo=chocolatesmenu_dt_hm">Chocolate Bouquets</a>
+                    </li>
+                    <li>
+                        <a href="/chocolates-hampers-lp?promo=chocolatesmenu_dt_hm">Chocolate Hampers</a>
+                    </li>
+                    <li>
+                        <a href="/chocolate-combos-lp?promo=chocolatesmenu_dt_hm">Chocolate Combos</a>
+                    </li>
+                    <li>
+                        <a href="/flowers-n-chocolates-lp?promo=chocolatesmenu_dt_hm">Flowers N Chocolates</a>
+                    </li>
+                    <li>
+                        <a href="/imported-chocolates-lp?promo=chocolatesmenu_dt_hm">Imported Chocolates</a>
+                    </li>
+                </ul>
+            </section>
+
+            <section>
+                <span class="bolder" id="sbmenu_bldr15">BY BRANDS</span>
+                <ul>
+                    <li>
+                        <a href="/ferrero-rocher-chocolates-lp?promo=chocolatesmenu_dt_hm">Ferrero Rocher</a>
+                    </li>
+                    <li>
+                        <a href="/cadbury-chocolates-lp?promo=chocolatesmenu_dt_hm">Cadbury</a>
+                    </li>
+                    <li>
+                        <a href="/artisanal-chocolates-lp?promo=chocolatesmenu_dt_hm">Artisanal Chocolates</a>
+                    </li>
+                    <li>
+                        <a href="/fnp-premium-chocolates-lp?promo=chocolatesmenu_dt_hm">FNP Premium Chocolates</a>
+                    </li>
+                    <li>
+                        <a href="/smoor-chocolate-box-lp?promo=chocolatesmenu_dt_hm">Smoor Chocolates</a>
+                    </li>
+                    <li>
+                        <a href="/lindt-chocolates-lp?promo=chocolatesmenu_dt_hm">Lindt Chocolates</a>
+                    </li>
+                    <li>
+                        <a href="/toblerone-chocolates-lp?promo=chocolatesmenu_dt_hm">Toblerone</a>
+                    </li>
+                    <li>
+                        <a href="/hershey-chocolates-lp?promo=chocolatesmenu_dt_hm">Hershey Chocolates</a>
+                    </li>
+                    <li>
+                        <a href="/kitkat-chocolates-lp?promo=chocolatesmenu_dt_hm">Kitkat Chocolates</a>
+                    </li>
+                </ul>
+            </section>
+            <section>
+                <span class="bolder" id="sbmenu_bldr15">By Occasion</span>
+                <ul>
+                    <li>
+                        <a href="/chocolates/birthday-lp?promo=chocolatesmenu_dt_hm">Birthday</a>
+                    </li>
+                    <li>
+                        <a href="/chocolates/anniversary?promo=chocolatesmenu_dt_hm">Anniversary</a>
+                    </li>
+                    <li>
+                        <a href="/chocolates/thank-you?promo=chocolatesmenu_dt_hm">Thank You</a>
+                    </li>
+                    <li>
+                        <a href="/chocolates/wedding-lp?promo=chocolatesmenu_dt_hm">Wedding</a>
+                    </li>
+                    <span class="bolder" style={{marginTop:"20px" }} id="sbmenu_bldr15">BY PRICES</span>
+                    <li>
+                        <a href="/chocolates-lp?promo=chocolatesmenu_dt_hm=&amp;fq-listprice=500.0%2520TO%2520999.0">Gifts
+                            Rs 500 - Rs 1000</a>
+                    </li>
+                    <li>
+                        <a href="/chocolates-lp?promo=chocolatesmenu_dt_hm=&amp;fq-listprice=1000.0%2520TO%25201499.0&amp;fq-listprice=1500.0%2520TO%25201999.0">Gifts
+                            Rs 1000 - Rs 2000</a>
+                    </li>
+                    <li>
+                        <a href="/chocolates-lp?promo=chocolatesmenu_dt_hm=&amp;fq-listprice=2500.0%2520TO%25202999.0&amp;fq-listprice=2000.0%2520TO%25202499.0">Gifts
+                            above Rs 2000</a>
+                    </li>
+                </ul>
+            </section>
+            <section>
+                <span class="bolder" id="sbmenu_bldr15">By Cities</span>
+                <ul>
+                    <li>
+                        <a href="/chocolates/delhi-lp?promo=chocolatesmenu_dt_hm">Delhi NCR</a>
+                    </li>
+                    <li>
+                        <a href="/chocolates/bengaluru-lp?promo=chocolatesmenu_dt_hm">Bengaluru
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/chocolates/mumbai-lp?promo=chocolatesmenu_dt_hm">Mumbai
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/chocolates/pune-lp?promo=chocolatesmenu_dt_hm">Pune </a>
+                    </li>
+                    <li>
+                        <a href="/chocolates/hyderabad-lp?promo=chocolatesmenu_dt_hm">Hyderabad
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/chocolates/kolkata-lp?promo=chocolatesmenu_dt_hm">Kolkata
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/chocolates/chennai-lp?promo=chocolatesmenu_dt_hm">Chennai
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/chocolates/lucknow-lp?promo=chocolatesmenu_dt_hm">Lucknow
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/chocolates?promo=chocolatesmenu_dt_hm">All Other Cities</a>
+                    </li>
+                </ul>
+            </section>
+
+            <section class="navBanner">
+                <a href="/chocolates-lp?promo=chocolatesmenu_dt_hm_banner">
+                    <img loading="lazy" src="https://www.fnp.com/assets/images/custom/nav-banners/Navigation-banner_Chocolates_feb.jpg" alt="Chocolates" />
+                </a>
+            </section>
+        </div>
+    </div>
+
+    <div id="personalizedmenu" data-mnuname="Personalised" class="">
+        <div class="sub-navmenubar">
+            <section>
+                <span class="bolder" id="sbmenu_bldr19">BY FEATURED</span>
+                <ul>
+                    <li>
+                        <a href="/all-personalised-gifts-lp?promo=personalizedmenu_dt_hm">All Personalised Gifts</a>
+                    </li>
+
+                    <li>
+                        <a href="/personalised-gifts-bestsellers-lp?promo=personalizedmenu_dt_hm">Best Sellers</a>
+                    </li>
+                    <li>
+                        <a href="/personalised-flowers-lp?promo=personalizedmenu_dt_hm">Personalised Flowers <span class="new">NEW</span></a>
+                    </li>
+                    <li>
+                        <a href="/same-day-delivery-personalised-gifts-lp?promo=personalizedmenu_dt_hm">Same Day
+                            Delivery</a>
+                    </li>
+                    <li>
+                        <a href="/new-arrival-personalised-gifts-lp?promo=personalizedmenu_dt_hm">New Arrivals</a>
+                    </li>
+                    <li>
+                        <a href="/photo-cakes-lp?promo=personalizedmenu_dt_hm">Personalised Photo Cakes</a>
+                    </li>
+                    <li>
+                        <a href="/personalised-combos-lp?promo=personalizedmenu_dt_hm">Personalised Combos
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/personalised-chocolates-lp?promo=personalizedmenu_dt_hm">Personalised Chocolates
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/personalised-hampers-lp?promo=personalizedmenu_dt_hm">Personalised Hampers
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/personalised-accessories-lp?promo=personalizedmenu_dt_hm">Personalised Accessories
+                        </a>
+                    </li>
+                </ul>
+            </section>
+            <section>
+                <span class="bolder" id="sbmenu_bldr20">By Occasions</span>
+                <ul>
+                    <li>
+                        <a href="/personalised-gifts/birthday-lp?promo=personalizedmenu_dt_hm">Birthday</a>
+                    </li>
+                    <li>
+                        <a href="/personalised-gifts/anniversary-lp?promo=personalizedmenu_dt_hm">Anniversary</a>
+                    </li>
+                    <li>
+                        <a href="/personalised-gifts/love-n-romance-lp?promo=personalizedmenu_dt_hm">Love N
+                            Romance</a>
+                    </li>
+                    <li>
+                        <a href="/personalised-gifts/wedding-lp?promo=personalizedmenu_dt_hm">Wedding</a>
+                    </li>
+                    <span class="bolder" style={{marginTop:"20px" }} id="sbmenu_bldr21">GIFTS - BY RECIPIENTS</span>
+                    <li>
+                        <a href="/personalised-gifts/for-him-lp?promo=personalizedmenu_dt_hm">For Him</a>
+                    </li>
+                    <li>
+                        <a href="/personalised-gifts/for-her-lp?promo=personalizedmenu_dt_hm">For Her</a>
+                    </li>
+                    <li>
+                        <a href="/personalised-gifts/for-husband-lp?promo=personalizedmenu_dt_hm">For Husband</a>
+                    </li>
+                    <li>
+                        <a href="/personalised-gifts/for-wife-lp?promo=personalizedmenu_dt_hm">For Wife</a>
+                    </li>
+                    <li>
+                        <a href="/personalised-gifts/for-kids-lp?promo=personalizedmenu_dt_hm">For Kids</a>
+                    </li>
+                </ul>
+            </section>
+            <section>
+                <span class="bolder" id="sbmenu_bldr21">BY TYPES</span>
+                <ul>
+                    <li>
+                        <a href="/personalised-mugs-lp?promo=personalizedmenu_dt_hm">Mugs</a>
+                    </li>
+                    <li>
+                        <a href="/personalised-cushions-lp?promo=personalizedmenu_dt_hm">Cushions</a>
+                    </li>
+                    <li>
+                        <a href="/personalised-water-bottles-lp?promo=personalizedmenu_dt_hm">Water Bottles</a>
+                    </li>
+                    <li>
+                        <a href="/bar-accessories-lp?promo=personalizedmenu_dt_hm">Bar Accessories</a>
+                    </li>
+                    <li>
+                        <a href="/personalised-stationery-lp?promo=personalizedmenu_dt_hm">Stationery</a>
+                    </li>
+                    <li>
+                        <a href="/personalised-engraved-lp?promo=personalizedmenu_dt_hm">Engraved</a>
+                    </li>
+                    <li>
+                        <a href="/personalised-lamps-lp?promo=personalizedmenu_dt_hm">Lamps</a>
+                    </li>
+                    <li>
+                        <a href="/personalised-photo-frames-lp?promo=personalizedmenu_dt_hm">Photo Frames</a>
+                    </li>
+                    <li>
+                        <a href="/personalised-key-chains-lp?promo=personalizedmenu_dt_hm">Keychains</a>
+                    </li>
+                    <li>
+                        <a href="/personalised-rings-lp?promo=personalizedmenu_dt_hm">Rings</a>
+                    </li>
+
+                    <li>
+                        <a href="/personalised-clocks-lp?promo=personalizedmenu_dt_hm">Clocks</a>
+                    </li>
+                    <li>
+                        <a href="/personalised-name-plates-lp?promo=personalizedmenu_dt_hm">Name Plates</a>
+                    </li>
+                    <li>
+                        <a href="/personalised-glassware-lp?promo=personalizedmenu_dt_hm">Glass Ware</a>
+                    </li>
+                </ul>
+            </section>
+            <section>
+                <span class="bolder" id="sbmenu_bldr21">BY NEW</span>
+                <ul>
+                    <li>
+                        <a href="/explosion-boxes-lp?promo=personalizedmenu_dt_hm">Explosion Boxes</a>
+                    </li>
+                    <li>
+                        <a href="/personalised-greeting-cards-lp?promo=personalizedmenu_dt_hm">Greeting Cards</a>
+                    </li>
+                    <li>
+                        <a href="/personalised-jewellery-lp?promo=personalizedmenu_dt_hm">Jewellery</a>
+                    </li>
+                    <li>
+                        <a href="/personalised-caricatures-lp?promo=personalizedmenu_dt_hm">Caricatures</a>
+                    </li>
+                    <li>
+                        <a href="/personalised-t-shirts-lp?promo=personalizedmenu_dt_hm">T-Shirts</a>
+                    </li>
+                    <li>
+                        <a href="/personalised-travel-accessories-lp?promo=personalizedmenu_dt_hm">Travel
+                            Accessories</a>
+                    </li>
+                    <li>
+                        <a href="/neon-light-gifts-lp?promo=personalizedmenu_dt_hm">Neon Lights</a>
+                    </li>
+                    <li>
+                        <a href="/personalised-perfumes-lp?promo=personalizedmenu_dt_hm">Perfumes</a>
+                    </li>
+                </ul>
+            </section>
+
+            <section>
+                <span class="bolder" id="sbmenu_bldr21">BY CITIES</span>
+                <ul>
+                    <li>
+                        <a href="/personalised-gifts/delhi-lp?promo=personalizedmenu_dt_hm">Delhi NCR</a>
+                    </li>
+                    <li>
+                        <a href="/personalised-gifts/bengaluru-lp?promo=personalizedmenu_dt_hm">Bengaluru
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/personalised-gifts/mumbai-lp?promo=personalizedmenu_dt_hm">Mumbai
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/personalised-gifts/pune-lp?promo=personalizedmenu_dt_hm">Pune
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/personalised-gifts/hyderabad-lp?promo=personalizedmenu_dt_hm">Hyderabad
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/personalised-gifts/kolkata-lp?promo=personalizedmenu_dt_hm">Kolkata
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/personalised-gifts/chennai-lp?promo=personalizedmenu_dt_hm">Chennai
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/personalised-gifts/lucknow-lp?promo=personalizedmenu_dt_hm">Lucknow
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/personalised-gifts/ahmedabad-lp?promo=personalizedmenu_dt_hm">Ahmedabad
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/personalised-gifts?promo=personalizedmenu_dt_hm">All Other Cities</a>
+                    </li>
+                </ul>
+            </section>
+
+            <section class="navBanner">
+                <a href="/all-personalised-gifts-lp?promo=Personalisedmenu_dt_hm_banner"><img loading="lazy" src="/assets/images/custom/nav-banners/Navigation-banner_Personalised_feb.jpg" alt="Same Day Delivery Gifts" /></a>
+            </section>
+        </div>
+    </div>
+    <div id="plantsmenu" data-mnuname="Plants" class="">
+        <div class="sub-navmenubar">
+            <section>
+                <span class="bolder" id="sbmenu_bldr23">BY FEATURED</span>
+                <ul>
+                    <li>
+                        <a href="/plants-lp?promo=plantsmenu_dt_hm">All Plants</a>
+                    </li>
+                    <li>
+                        <a href="/plants-bestsellers-lp?promo=plantsmenu_dt_hm">Best Sellers</a>
+                    </li>
+                    <li>
+                        <a href="/plants-same-day-delivery-lp?promo=plantsmenu_dt_hm">Same Day Delivery</a>
+                    </li>
+                    <li>
+                        <a href="/new-arrival-plants-lp?promo=plantsmenu_dt_hm">New Arrivals</a>
+                    </li>
+                    <li>
+                        <a href="/air-purifying-n-stress-relieving-plants-lp?promo=plantsmenu_dt_hm">Air Purifying
+                            Plants</a>
+                    </li>
+                    <li>
+                        <a href="/plants-offers-lp?promo=plantsmenu_dt_hm">Plants Offers</a>
+                    </li>
+
+                    <li>
+                        <a href="/premium-plants-lp?promo=plantsmenu_dt_hm">Premium Plants</a>
+                    </li>
+                    <li>
+                        <a href="/garden-accessories-lp?promo=plantsmenu_dt_hm">Garden Accessories</a>
+                    </li>
+                    <li>
+                        <a href="/personalised-plants-lp?promo=plantsmenu_dt_hm">Personalised Plants</a>
+                    </li>
+                    <li>
+                        <a href="/terrariums-lp?promo=plantsmenu_dt_hm">Terrariums Plants</a>
+                    </li>
+                    <li>
+                        <a href="/plants/for-her-lp?promo=plantsmenu_dt_hm">Plants for Her</a>
+                    </li>
+                    <li>
+                        <a href="/plants/for-him-lp?promo=plantsmenu_dt_hm">Plants for Him</a>
+                    </li>
+                </ul>
+            </section>
+            <section>
+                <span class="bolder" id="sbmenu_bldr24">BY PLACEMENT</span>
+                <ul>
+                    <li>
+                        <a href="/indoor-plants-lp?promo=plantsmenu_dt_hm">Indoor Plants</a>
+                    </li>
+                    <li>
+                        <a href="/desktop-plants-lp?promo=plantsmenu_dt_hm">Desktop Plants</a>
+                    </li>
+                    <li>
+                        <a href="/hanging-plants-lp?promo=plantsmenu_dt_hm">Hanging Plants</a>
+                    </li>
+                    <span class="bolder" style={{marginTop:"20px" }} id="sbmenu_bldr21">BY OCCASIONS</span>
+                    <li>
+                        <a href="/plants/birthday-lp?promo=plantsmenu_dt_hm">Birthday</a>
+                    </li>
+                    <li>
+                        <a href="/plants/anniversary-lp?promo=plantsmenu_dt_hm">Anniversary</a>
+                    </li>
+                    <li>
+                        <a href="/plants/house-warming-lp?promo=plantsmenu_dt_hm">House Warming</a>
+                    </li>
+                    <li>
+                        <a href="/good-luck-plants-lp?promo=plantsmenu_dt_hm">Good Luck</a>
+                    </li>
+                </ul>
+            </section>
+            <section>
+                <span class="bolder" id="sbmenu_bldr25">BY TYPES</span>
+                <ul>
+                    <li>
+                        <a href="/money-plants-lp?promo=plantsmenu_dt_hm">Money Plants</a>
+                    </li>
+                    <li>
+                        <a href="/lucky-bamboo-lp?promo=plantsmenu_dt_hm">Lucky Bamboo</a>
+                    </li>
+                    <li>
+                        <a href="/snake-plants-lp?promo=plantsmenu_dt_hm">Snake Plants</a>
+                    </li>
+                    <li>
+                        <a href="/jade-plants-lp?promo=plantsmenu_dt_hm">Jade Plants</a>
+                    </li>
+
+                    <li>
+                        <a href="/flowering-plants-lp?promo=plantsmenu_dt_hm">Flowering Plants</a>
+                    </li>
+                    <li>
+                        <a href="/plants-diy-kits-lp?promo=plantsmenu_dt_hm">Plants DIY Kits</a>
+                    </li>
+                    <li>
+                        <a href="/palm-plants-lp?promo=plantsmenu_dt_hm">Palm Plants</a>
+                    </li>
+                    <li>
+                        <a href="/spider-plants-lp?promo=plantsmenu_dt_hm">Spider Plants</a>
+                    </li>
+                    <li>
+                        <a href="/exotic-plants-lp?promo=plantsmenu_dt_hm">Exotic Plants</a>
+                    </li>
+                    <li>
+                        <a href="/aglaonema-plants-lp?promo=plantsmenu_dt_hm">Agalaonema Plants</a>
+                    </li>
+                    <li>
+                        <a href="/bonsai-plants-lp?promo=plantsmenu_dt_hm">Bonsai Plants</a>
+                    </li>
+                    <li>
+                        <a href="/ficus-plants-lp?promo=plantsmenu_dt_hm">Ficus Plants</a>
+                    </li>
+                </ul>
+            </section>
+            <section>
+                <span class="bolder" id="sbmenu_bldr26">BY PLANTERS</span>
+                <ul>
+                    <li>
+                        <a href="/glass-planters-lp?promo=plantsmenu_dt_hm">Glass Planters</a>
+                    </li>
+                    <li>
+                        <a href="/ceramic-planters-lp?promo=plantsmenu_dt_hm">Ceramic Planters</a>
+                    </li>
+                    <li>
+                        <a href="/metal-planters-lp?promo=plantsmenu_dt_hm">Metal Planters</a>
+                    </li>
+
+                    <li>
+                        <a href="/self-watering-pots-lp?promo=plantsmenu_dt_hm">Self Watering Planters</a>
+                    </li>
+                    <li>
+                        <a href="/mugs-planters-lp?promo=plantsmenu_dt_hm">Mugs Planters</a>
+                    </li>
+                    <li>
+                        <a href="/planters-lp?promo=plantsmenu_dt_hm">Planter Pots</a>
+                    </li>
+
+                    <span class="bolder" style={{marginTop:"20px" }} id="sbmenu_bldr21">COMBOS</span>
+                    <li>
+                        <a href="/plant-combos-lp?promo=plantsmenu_dt_hm">Plants Combos</a>
+                    </li>
+                    <li>
+                        <a href="/cakes-n-plants-lp?promo=plantsmenu_dt_hm">Cake N Plants</a>
+                    </li>
+                    <li>
+                        <a href="/flowers-n-plants-lp?promo=plantsmenu_dt_hm">Flowers N Plants</a>
+                    </li>
+                </ul>
+            </section>
+            <section>
+                <span class="bolder" id="sbmenu_bldr26">BY CITIES</span>
+                <ul>
+                    <li>
+                        <a href="/plants/delhi-lp?promo=plantsmenu_dt_hm">Delhi NCR</a>
+                    </li>
+                    <li>
+                        <a href="/plants/bengaluru-lp?promo=plantsmenu_dt_hm">Bengaluru
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/plants/mumbai-lp?promo=plantsmenu_dt_hm">Mumbai </a>
+                    </li>
+                    <li><a href="/plants/pune-lp?promo=plantsmenu_dt_hm">Pune </a></li>
+                    <li>
+                        <a href="/plants/hyderabad-lp?promo=plantsmenu_dt_hm">Hyderabad
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/plants/kolkata-lp?promo=plantsmenu_dt_hm">Kolkata </a>
+                    </li>
+                    <li>
+                        <a href="/plants/chennai-lp?promo=plantsmenu_dt_hm">Chennai </a>
+                    </li>
+                    <li>
+                        <a href="/plants/lucknow-lp?promo=plantsmenu_dt_hm">Lucknow </a>
+                    </li>
+                    <li>
+                        <a href="/plants/ahmedabad-lp?promo=plantsmenu_dt_hm">Ahmedabad
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/plants?promo=plantsmenu_dt_hm">All Other Cities</a>
+                    </li>
+                </ul>
+            </section>
+
+
+
+            <section class="navBanner">
+                <a href="/plants-lp?promo=plantsmenu_dt_hm_banner"><img loading="lazy" src="/assets/images/custom/nav-banners/Navigation-banner_Plants_feb.jpg" alt="Plants" /></a>
+            </section>
+        </div>
+    </div>
+    <div id="combosmenu" data-mnuname="Combos" class="">
+        <div class="sub-navmenubar">
+            <section>
+                <span class="bolder" id="sbmenu_bldr31">FEATURED COMBOS</span>
+                <ul>
+                    <li><a href="/combos-lp?promo=combosmenu_dt_hm">All Combos</a></li>
+                    <li>
+                        <a href="/combos-bestsellers-lp?promo=combosmenu_dt_hm">Best Sellers</a>
+                    </li>
+                    <li>
+                        <a href="/new-arrival-combos-lp?promo=combosmenu_dt_hm">New Arrivals</a>
+                    </li>
+                    <li>
+                        <a href="/combos/birthday-lp?promo=combosmenu_dt_hm">Birthday Combos</a>
+                    </li>
+                    <li>
+                        <a href="/combos/anniversary-lp?promo=combosmenu_dt_hm">Anniversary Combos</a>
+                    </li>
+                    <li>
+                        <a href="/combos/wedding-lp?promo=combosmenu_hm">Wedding Combos</a>
+                    </li>
+                </ul>
+            </section>
+
+            <section>
+                <span class="bolder" id="sbmenu_bldr31">FLOWERS COMBOS</span>
+                <ul>
+                    <li>
+                        <a href="/flowers-n-cakes-lp?promo=combosmenu_dt_hm">Flowers N Cakes</a>
+                    </li>
+                    <li>
+                        <a href="/flowers-n-chocolates-lp?promo=combosmenu_dt_hm">Flowers N Chocolates</a>
+                    </li>
+                    <li>
+                        <a href="/flowers-n-guitarist-service-lp?promo=combosmenu_dt_hm">Flowers N Guitarist</a>
+                    </li>
+                    <span class="bolder" style={{marginTop:"20px" }} id="sbmenu_bldr21">COMBOS YOU CAN'T MISS</span>
+
+                    <li>
+                        <a href="/personalised-combos-lp?promo=combosmenu_dt_hm">Personalised Combos</a>
+                    </li>
+                    <li>
+                        <a href="/plant-combos-lp?promo=combosmenu_dt_hm">Plant Combos</a>
+                    </li>
+                    <li>
+                        <a href="/gifts-n-guitarist-service-lp?promo=combosmenu_dt_hm">Gifts N Guitarist</a>
+                    </li>
+                </ul>
+            </section>
+
+            <section>
+                <span class="bolder" id="sbmenu_bldr29">FEATURED HAMPERS</span>
+                <ul>
+                    <li>
+                        <a href="/new-arrival-gift-hampers-lp?promo=combosmenu_dt_hm">New Arrivals</a>
+                    </li>
+
+                    <li>
+                        <a href="/gift-hampers/birthday-lp?promo=combosmenu_dt_hm">Birthday Hampers</a>
+                    </li>
+                    <li>
+                        <a href="/gift-hampers/anniversary-lp?promo=combosmenu_dt_hm">Anniversary Hampers</a>
+                    </li>
+                    <li>
+                        <a href="/premium-gift-hampers-lp?promo=combosmenu_dt_hm">Premium Gift Hampers<span class="new">New</span></a>
+                    </li>
+                    <li>
+                        <a href="/gift-hampers/wedding-lp?promo=combosmenu_dt_hm">Wedding Hampers</a>
+                    </li>
+                </ul>
+            </section>
+            <section>
+                <span class="bolder" id="sbmenu_bldr31">THOUGHTFULLY CURATED HAMPERS</span>
+                <ul>
+                    <li>
+                        <a href="/gift-hampers-lp?promo=combosmenu_dt_hm">All Gift Hampers</a>
+                    </li>
+                    <li>
+                        <a href="/cosmetics-n-spa-hampers-lp?promo=combosmenu_dt_hm">Grooming Hampers</a>
+                    </li>
+                    <li>
+                        <a href="/tea-n-coffee-hampers-lp?promo=combosmenu_dt_hm">Tea &amp; Coffee Hampers</a>
+                    </li>
+                    <li>
+                        <a href="/gourmet-gifts-lp?promo=combosmenu_dt_hm">Gourmet Hampers</a>
+                    </li>
+                    <li>
+                        <a href="/chocolates-hampers-lp?promo=combosmenu_dt_hm">Chocolate Hampers</a>
+                    </li>
+                    <li>
+                        <a href="/fruit-hampers-lp?promo=combosmenu_dt_hm">Fruit Hampers</a>
+                    </li>
+                    <li>
+                        <a href="/sweet-hampers-lp?promo=combosmenu_dt_hm">Sweet Hampers</a>
+                    </li>
+                    <li>
+                        <a href="/dry-fruits-lp?promo=combosmenu_dt_hm">Dry Fruit Hampers</a>
+                    </li>
+                </ul>
+            </section>
+            <section class="navBanner">
+                <a href="/combos-lp?promo=combosmenu_dt_hm_banner"><img loading="lazy" src="/assets/images/custom/nav-banners/Navigation-banner_Combos_feb.jpg" alt="Combos" /></a>
+            </section>
+            <section class="navBanner">
+                <a href="/premium-gift-hampers-lp?promo=combosmenu_dt_hm_banner"><img loading="lazy" src="/assets/images/custom/nav-banners/Navigation-banner_Premium-Gift-Hampers.jpg" alt="Premium Gift" /></a>
+            </section>
+        </div>
+    </div>
+    <div id="occasionsmenu" data-mnuname="Occasions" class="">
+        <div class="sub-navmenubar">
+            <section>
+                <span class="bolder" id="sbmenu_bldr34">Upcoming Occasions</span>
+                <ul>
+
+
+
+
+                    <li>
+                        <a href="/gifts/mothers-day-lp?promo=occasionmenu_Mother_dt_hm">Mother’s Day - 12th&nbsp;May</a>
+                    </li>
+                    <li>
+                        <a href="/gifts/fathers-day-lp?promo=occasionmenu_Father_dt_hm">Father’s Day – 16th&nbsp;Jun</a>
+                    </li>
+
+                    <li>
+                        <a href="/pride-gifts-lp?promo=occasionmenu_Pride_dt_hm">Pride Month – 1st&nbsp;– 30th&nbsp;Jun</a>
+                    </li>
+                    <li>
+                        <a href="/gifts/friendship-day-lp?promo=occasionmenu_Friendship_dt_hm">Friendship Day –
+                            4th&nbsp;Aug</a>
+                    </li>
+                    <li>
+                        <a href="/rakhi-lp?promo=occasionmenu_Rakhi_dt_hm">Raksha&nbsp;Bandhan&nbsp;– 19th&nbsp;Aug</a>
+                    </li>
+                    <li>
+                        <a href="/gifts/diwali-lp?promo=occasionmenu_Diwali_dt_hm">Diwali – 1st&nbsp;Nov</a>
+                    </li>
+                    <li>
+                        <a href="/gifts/bhai-dooj-lp?promo=occasionmenu_Bhai_dt_hm">Bhai&nbsp;Dooj&nbsp;– 2nd&nbsp;– 3rd&nbsp;Nov</a>
+                    </li>
+                    <li>
+                        <a href="/gifts/childrens-day-lp?promo=occasionmenu_Children_dt_hm">Children’s Day –
+                            14th&nbsp;Nov</a>
+                    </li>
+                    <li>
+                        <a href="/gifts/christmas-lp?promo=occasionmenu_Christmas_dt_hm">Christmas – 25th&nbsp;Dec</a>
+                    </li>
+                    <li>
+                        <a href="/gifts/valentines-day?promo=occasionmenu_Valentine_dt_hm">Valentine’s Day –
+                            14th&nbsp;Feb
+                        </a>
+                    </li>
+                </ul>
+            </section>
+
+            <section>
+                <span class="bolder" id="sbmenu_bldr38">Special Occasions</span>
+                <ul>
+                    <li>
+                        <a href="/gifts/wedding-lp?promo=occasionsmenu_dt_hm">Wedding </a>
+                    </li>
+                    <li>
+                        <a href="/gifts/house-warming-lp?promo=occasionsmenu_dt_hm">House Warming
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/gifts/new-born-lp?promo=occasionsmenu_dt_hm">New Born Baby</a>
+                    </li>
+                    <span class="bolder" style={{marginTop:"20px" }} id="sbmenu_bldr38">OTHER OCCASIONS</span>
+                    <li>
+                        <a href="/gifts/congratulations-lp?promo=occasionsmenu_dt_hm">Congratulations</a>
+                    </li>
+                    <li>
+                        <a href="/flowers/get-well-soon-lp?promo=occasionsmenu_dt_hm">Get Well Soon
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/flowers/sympathy-n-funeral-lp?promo=occasionsmenu_dt_hm">Sympathy N Funeral</a>
+                    </li>
+                </ul>
+            </section>
+
+            <section>
+                <span class="bolder" id="sbmenu_bldr38">Mother's Day Gifts</span>
+                <ul>
+                    <li><a href="/all-gifts/mothers-day-lp?promo=md_allgifts_occasionsmenu_dt_hm">All Gifts</a></li>
+                    <li><a href="/personalised-gifts/mothers-day-lp?promo=md_personalisedgifts_occasionsmenu_dt_hm">Personalised Gifts</a></li>
+                    <li><a href="/flowers/mothers-day-lp?promo=md_flowers_occasionsmenu_dt_hm">Flowers</a></li>
+                    <li><a href="/plants/mothers-day-lp?promo=md_plants_occasionsmenu_dt_hm">Plants</a></li>
+                    <li><a href="/gift-hampers/mothers-day-lp?promo=md_gifthampers_occasionsmenu_dt_hm">Gift Hampers</a></li>
+                    <li><a href="/fashion-accessories/mothers-day-lp?promo=md_fashion_occasionsmenu_dt_hm">Fashion</a></li>
+                    <li><a href="/combos/mothers-day-lp?promo=md_combos_occasionsmenu_dt_hm">Combos</a></li>
+                    <li><a href="/cakes/mothers-day-lp?promo=md_cakes_occasionsmenu_dt_hm">Cakes</a></li>
+                    <li><a href="/home-living-gifts/mothers-day-lp?promo=md_homenliving_occasionsmenu_dt_hm">Home n Living</a></li>
+
+                </ul>
+            </section>
+
+            <section class="navBanner">
+                <a href="/all-gifts/mothers-day-lp?promo=mday_desk_occasion_navigation_banner"><img loading="lazy" src="/assets/images/custom/nav-banners/Mothers-day-2.jpg" alt="mothers day Gifts" /></a>
+            </section>
+            <section class="navBanner">
+                <a href="/gifts/birthday-lp?promo=occasionsmenu_dt_hm_banner"><img loading="lazy" src="/assets/images/custom/misc/Navigation-banner_Occasion Tab-Birthday-13324.jpg" alt="congratulate with flowers" /></a>
+            </section>
+
+            <section class="navBanner">
+                <a href="/all-gifts/anniversary-lp?promo=occasionsmenu_dt_hm_banner"><img loading="lazy" src="/assets/images/custom/misc/Navigation-banner_Occasion Tab -Anniversary-13324.jpg" alt="congratulate with flowers" /></a>
+            </section>
+        </div>
+    </div>
+    <div id="othergiftsmenu" data-mnuname="More Gifts" class="">
+        <div class="sub-navmenubar">
+            <section>
+                <span class="bolder" id="sbmenu_bldr42">BY FEATURED</span>
+                <ul>
+                    <li>
+                        <a href="/gifts-bestsellers-lp?promo=othergiftsmenu_dt_hm">Bestsellers</a>
+                    </li>
+                    <li>
+                        <a href="/return-gifts-lp?promo=othergiftsmenu_dt_hm">Return Gifts</a>
+                    </li>
+                    <li>
+                        <a href="/same-day-delivery-gifts-lp?promo=othergiftsmenu_dt_hm">Same Day Delivery</a>
+                    </li>
+                    <li>
+                        <a href="/new-arrival-gifts-lp?promo=othergiftsmenu_dt_hm">New Arrivals</a>
+                    </li>
+                    <li>
+                        <a href="/unique-gifts-lp?promo=othergiftsmenu_dt_hm">Unique Gifts</a>
+                    </li>
+                    <li>
+                        <a href="/midnight-delivery-gifts-lp?promo=othergiftsmenu_dt_hm">Midnight Delivery</a>
+                    </li>
+                </ul>
+            </section>
+            <section>
+                <span class="bolder" id="sbmenu_bldr43">GIFT - BY CATEGORY</span>
+                <ul>
+                    <li>
+                        <a href="/gifts-mall-lp?promo=othergiftsmenu_dt_hm">Gift Mall</a>
+                    </li>
+                    <li><a href="/mugs-lp?promo=othergiftsmenu_dt_hm">Mugs</a></li>
+                    <li>
+                        <a href="/cushions-lp?promo=othergiftsmenu_dt_hm">Cushions</a>
+                    </li>
+                    <li>
+                        <a href="/toys-n-games-lp?promo=othergiftsmenu_dt_hm">Toys N Games</a>
+                    </li>
+                    <li>
+                        <a href="/handbag-gifts-lp?promo=othergiftsmenu_dt_hm">Handbags</a>
+                    </li>
+                    <li>
+                        <a href="/accessories-lp?promo=othergiftsmenu_dt_hm">Accessories</a>
+                    </li>
+                    <li>
+                        <a href="/perfumes-lp?promo=othergiftsmenu_dt_hm">Perfumes N Fragrances</a>
+                    </li>
+                    <li>
+                        <a href="/jewellery-lp?promo=othergiftsmenu_dt_hm">Jewellery N Accessories</a>
+                    </li>
+                    <li>
+                        <a href="/electronics-lp?promo=othergiftsmenu_dt_hm">Electronics N Accessories</a>
+                    </li>
+                    <li>
+                        <a href="/home-decor-lp?promo=othergiftsmenu_dt_hm">Home Décor</a>
+                    </li>
+                    <li>
+                        <a href="/digital-gifts-lp?promo=othergiftsmenu_dt_hm">Digital Gifts</a>
+                    </li>
+
+                </ul>
+            </section>
+
+            <section>
+                <span class="bolder" id="sbmenu_bldr45">Home &amp; Living</span>
+                <ul>
+                    <li>
+                        <a href="/home-living-gifts-lp?promo=othergiftsmenu_dt_hm">Home N Living Gifts</a>
+                    </li>
+                    <li>
+                        <a href="/bed-linen-gifts-lp?promo=othergiftsmenu_dt_hm">Bed Linen</a>
+                    </li>
+                    <li>
+                        <a href="/table-linen-gifts-lp?promo=othergiftsmenu_dt_hm">Table Linen</a>
+                    </li>
+                    <li>
+                        <a href="/bath-linen-gifts-lp?promo=othergiftsmenu_dt_hm">Bath Linen</a>
+                    </li>
+                    <li>
+                        <a href="/serveware-gifts-lp?promo=othergiftsmenu_dt_hm">Serveware</a>
+                    </li>
+                    <li>
+                        <a href="/lightware-gifts-lp?promo=othergiftsmenu_dt_hm">Lightware</a>
+                    </li>
+                    <li>
+                        <a href="/barware-gifts-lp?promo=othergiftsmenu_dt_hm">Barware</a>
+                    </li>
+                    <li>
+                        <a href="/wall-decor-gifts-lp?promo=othergiftsmenu_dt_hm">Wall Decor</a>
+                    </li>
+                    <li>
+                        <a href="/table-decor-gifts-lp?promo=othergiftsmenu_dt_hm">Table Decor</a>
+                    </li>
+                    <li>
+                        <a href="/garden-decor-gifts-lp?promo=othergiftsmenu_dt_hm">Garden Decor</a>
+                    </li>
+                    <li>
+                        <a href="/figurines-gifts-lp?promo=othergiftsmenu_dt_hm">Figurines</a>
+                    </li>
+                    <li>
+                        <a href="/candles-lp?promo=othergiftsmenu_dt_hm">Candles</a>
+                    </li>
+                </ul>
+            </section>
+
+            <section>
+                <span class="bolder" id="sbmenu_bldr45">BY NEW</span>
+                <ul>
+                    <li>
+                        <a href="/balloons-lp?promo=othergiftsmenu_dt_hm">Surprises N Decorations</a>
+                    </li>
+                    <li>
+                        <a href="/balloon-decorations-lp?promo=othergiftsmenu_dt_hm">Balloon Decorations</a>
+                    </li>
+                    <li>
+                        <a href="/balloon-bouquets-lp?promo=othergiftsmenu_dt_hm">Balloon Bouquets</a>
+                    </li>
+                    <li>
+                        <a href="/gifts-n-guitarist-service-lp?promo=othergiftsmenu_dt_hm">Gifts N Guitarist</a>
+                    </li>
+                    <li>
+                        <a href="/silver-gifts-lp?promo=othergiftsmenu_dt_hm">Silver Gifts</a>
+                    </li>
+                    <li><a href="/idols-lp?promo=othergiftsmenu_dt_hm">Idols</a></li>
+
+                    <li>
+                        <a href="/stationery-gifts-lp?promo=othergiftsmenu_dt_hm">Stationery Gifts</a>
+                    </li>
+                    <li>
+                        <a href="/pooja-gift-boxes-lp?promo=othergiftsmenu_dt_hm">Pooja Gift Boxes</a>
+                    </li>
+                    <li>
+                        <a href="/baby-gift-store-lp?promo=othergiftsmenu_dt_hm">Baby Gift Store</a>
+                    </li>
+                    <li>
+                        <a href="/themed-gifts-lp?promo=othergiftsmenu_dt_hm">Themed Gifts</a>
+                    </li>
+                </ul>
+            </section>
+
+
+
+            <section>
+                <span class="bolder" id="sbmenu_bldr45">BY CITIES</span>
+                <ul>
+                    <li>
+                        <a href="/gifts/delhi-lp?promo=othergiftsmenu_dt_hm">Delhi NCR</a>
+                    </li>
+                    <li>
+                        <a href="/gifts/bengaluru-lp?promo=othergiftsmenu_dt_hm">Bengaluru
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/gifts/mumbai-lp?promo=othergiftsmenu_dt_hm">Mumbai </a>
+                    </li>
+                    <li>
+                        <a href="/gifts/pune-lp?promo=othergiftsmenu_dt_hm">Pune </a>
+                    </li>
+                    <li>
+                        <a href="/gifts/hyderabad-lp?promo=othergiftsmenu_dt_hm">Hyderabad
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/gifts/kolkata-lp?promo=othergiftsmenu_dt_hm">Kolkata
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/gifts/chennai-lp?promo=othergiftsmenu_dt_hm">Chennai
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/gifts/lucknow-lp?promo=othergiftsmenu_dt_hm">Lucknow
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/gifts/ahmedabad-lp?promo=othergiftsmenu_dt_hm">Ahmedabad
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/gifts?promo=othergiftsmenu_dt_hm">All Other Cities</a>
+                    </li>
+                </ul>
+            </section>
+
+            <section class="navBanner">
+                <a href="/gifts-lp?promo=banner2_MoreGifts">
+                    <img loading="lazy" src="/assets/images/custom/nav-banners/Navigation-banner_More Gifts_feb.jpg" alt="Ram Mandir Gifts" />
+                </a>
+            </section>
+
+        </div>
+    </div>
+    <div id="globalmenu" data-mnuname="Global" class="">
+        <div class="sub-navmenubar">
+            <section>
+                <span class="bolder" id="sbmenu_bldr47"><a href="/usa/gifts-lp?promo=globalmenu_dt_hm">USA</a></span>
+                <ul>
+
+
+                    <li>
+                        <a href="/usa/gifts/mothers-day-lp?promo=globalmenu_dt_hm">Mother's Day Gifts USA</a>
+                    </li>
+
+                    <li>
+                        <a href="/usa/flowers-lp?promo=globalmenu_dt_hm">Flowers USA</a>
+                    </li>
+                    <li>
+                        <a href="/usa/gifts-lp?promo=globalmenu_dt_hm">Gifts USA</a>
+                    </li>
+                    <li>
+                        <a href="/usa/personalised-gifts-lp?promo=globalmenu_dt_hm">Personalised Gifts USA</a>
+                    </li>
+                    <li>
+                        <a href="/usa/cakes-lp?promo=globalmenu_dt_hm">Cakes USA</a>
+                    </li>
+                    <li>
+                        <a href="/usa/chocolates-lp?promo=globalmenu_dt_hm">Chocolates USA</a>
+                    </li>
+                    <li>
+                        <a href="/usa/sweets-lp?promo=globalmenu_dt_hm">Sweets USA</a>
+                    </li>
+                    <li>
+                        <a href="/usa/gift-hampers-lp?promo=globalmenu_dt_hm">Gift Baskets USA</a>
+                    </li>
+                    <li>
+                        <a href="/usa/roses-lp?promo=globalmenu_dt_hm">Roses USA</a>
+                    </li>
+                </ul>
+            </section>
+            <section>
+                <span class="bolder" id="sbmenu_bldr50"><a href="/canada/gifts-lp?promo=globalmenu_dt_hm">Canada</a></span>
+                <ul>
+
+
+                    <li>
+                        <a href="/canada/gifts/mothers-day-lp?promo=globalmenu_dt_hm">Mother's Day Gifts Canada</a>
+                    </li>
+                    <li>
+                        <a href="/canada/flowers-lp?promo=globalmenu_dt_hm">Flowers Canada</a>
+                    </li>
+                    <li>
+                        <a href="/canada/gifts-lp?promo=globalmenu_dt_hm">Gifts Canada</a>
+                    </li>
+                    <li>
+                        <a href="/canada/personalised-gifts-lp?promo=globalmenu_dt_hm">Personalised Gifts Canada</a>
+                    </li>
+                    <li>
+                        <a href="/canada/cakes-lp?promo=globalmenu_dt_hm">Cakes Canada</a>
+                    </li>
+                    <li>
+                        <a href="/canada/chocolates-lp?promo=globalmenu_dt_hm">Chocolates Canada</a>
+                    </li>
+                    <li>
+                        <a href="/canada/gift-hampers-lp?promo=globalmenu_dt_hm">Gift Baskets Canada</a>
+                    </li>
+                </ul>
+            </section>
+            <section>
+                <span class="bolder" id="sbmenu_bldr51"><a href="/australia/gifts-lp?promo=globalmenu_dt_hm">Australia</a></span>
+                <ul>
+
+
+                    <li>
+                        <a href="/australia/gifts/mothers-day-lp?promo=globalmenu_dt_hm">Mother's Day Gifts Australia</a>
+                    </li>
+                    <li>
+                        <a href="/australia/flowers-lp?promo=globalmenu_dt_hm">Flowers Australia</a>
+                    </li>
+                    <li>
+                        <a href="/australia/gifts-lp?promo=globalmenu_dt_hm">Gifts Australia</a>
+                    </li>
+                    <li>
+                        <a href="/australia/personalised-gifts-lp?promo=globalmenu_dt_hm">Personalised Gifts
+                            Australia</a>
+                    </li>
+                    <li>
+                        <a href="/australia/cakes-lp?promo=globalmenu_dt_hm">Cakes Australia</a>
+                    </li>
+                    <li>
+                        <a href="/australia/chocolates-lp?promo=globalmenu_dt_hm">Chocolates Australia</a>
+                    </li>
+                    <li>
+                        <a href="/australia/gift-hampers-lp?promo=globalmenu_dt_hm">Gift Baskets Australia</a>
+                    </li>
+                </ul>
+            </section>
+            <section>
+                <span class="bolder" id="sbmenu_bldr48"><a href="/uk/gifts-lp?promo=globalmenu_dt_hm">UK</a></span>
+                <ul>
+
+                    <li>
+                        <a href="/uk/gifts/mothers-day-lp?promo=globalmenu_dt_hm">Mother's Day Gifts UK</a>
+                    </li>
+                    <li>
+                        <a href="/uk/flowers-lp?promo=globalmenu_dt_hm">Flowers UK</a>
+                    </li>
+                    <li><a href="/uk/gifts-lp?promo=globalmenu_dt_hm">Gifts UK</a></li>
+                    <li>
+                        <a href="/uk/personalised-gifts-lp?promo=globalmenu_dt_hm">Personalised Gifts UK</a>
+                    </li>
+                    <li><a href="/uk/cakes-lp?promo=globalmenu_dt_hm">Cakes UK</a></li>
+                    <li>
+                        <a href="/uk/chocolates-lp?promo=globalmenu_dt_hm">Chocolates UK</a>
+                    </li>
+                    <li>
+                        <a href="/uk/gift-hampers-lp?promo=globalmenu_dt_hm">Gift Baskets UK</a>
+                    </li>
+                    <li><a href="/uk/roses-lp?promo=globalmenu_dt_hm">Roses UK</a></li>
+                </ul>
+            </section>
+            <section>
+                <span class="bolder" id="sbmenu_bldr49"><a href="/uae/gifts-lp?promo=globalmenu_dt_hm">UAE</a></span>
+                <ul>
+
+
+                    <li>
+                        <a href="/uae/gifts/mothers-day-lp?promo=globalmenu_dt_hm">Mother's Day Gifts UAE</a>
+                    </li>
+                    <li>
+                        <a href="/uae/flowers-lp?promo=globalmenu_dt_hm">Flowers UAE</a>
+                    </li>
+                    <li>
+                        <a href="/uae/gifts-lp?promo=globalmenu_dt_hm">Gifts UAE</a>
+                    </li>
+                    <li>
+                        <a href="/uae/personalised-gifts-lp?promo=globalmenu_dt_hm">Personalised Gifts UAE</a>
+                    </li>
+                    <li>
+                        <a href="/uae/cakes-lp?promo=globalmenu_dt_hm">Cakes UAE</a>
+                    </li>
+                    <li>
+                        <a href="/uae/chocolates-lp?promo=globalmenu_dt_hm">Chocolates UAE</a>
+                    </li>
+                    <li>
+                        <a href="/uae/sweets-lp?promo=globalmenu_dt_hm">Sweets UAE</a>
+                    </li>
+                    <li>
+                        <a href="/uae/gift-hampers-lp?promo=globalmenu_dt_hm">Gift Baskets UAE</a>
+                    </li>
+                    <li>
+                        <a href="/uae/roses-lp?promo=globalmenu_dt_hm">Roses UAE</a>
+                    </li>
+                </ul>
+            </section>
+
+            <section>
+                <span class="bolder" id="sbmenu_bldr52"><a href="https://www.fnp.sg?promo=globalmenu_dt_hm">Singapore</a></span>
+                <ul>
+
+
+                    <li>
+                        <a href="https://www.fnp.sg/gifts/mothers-day?promo=globalmenu_dt_hm">Mother's Day Gifts Singapore</a>
+                    </li>
+                    <li>
+                        <a href="https://www.fnp.sg/all-flowers?promo=globalmenu_dt_hm">Flowers Singapore</a>
+                    </li>
+                    <li>
+                        <a href="https://www.fnp.sg/gifts?promo=globalmenu_dt_hm">Gifts Singapore</a>
+                    </li>
+                    <li>
+                        <a href="https://www.fnp.sg/personalised-gifts?promo=globalmenu_dt_hm">Personalised Gifts
+                            Singapore</a>
+                    </li>
+                    <li>
+                        <a href="https://www.fnp.sg/cakes?promo=globalmenu_dt_hm">Cakes Singapore</a>
+                    </li>
+                    <li>
+                        <a href="https://www.fnp.sg/chocolates?promo=globalmenu_dt_hm">Chocolates Singapore</a>
+                    </li>
+                    <li>
+                        <a href="https://www.fnp.sg/sweets?promo=globalmenu_dt_hm">Sweets Singapore</a>
+                    </li>
+                    <li>
+                        <a href="https://www.fnp.sg/gift-hampers?promo=globalmenu_dt_hm">Gift Hampers Singapore</a>
+                    </li>
+                    <li>
+                        <a href="https://www.fnp.sg/roses?promo=globalmenu_dt_hm">Roses Singapore</a>
+                    </li>
+                </ul>
+            </section>
+            <section>
+                <span class="bolder" id="sbmenu_bldr53"><a href="/info/international?promo=globalmenu_dt_hm">Other
+                    Countries</a>
+                </span>
+                <ul>
+                    <li>
+                        <a href="/philippines/gifts-lp?promo=globalmenu_dt_hm">Philippines</a>
+                    </li>
+                    <li><a href="/qatar/gifts-lp?promo=globalmenu_dt_hm">Qatar</a></li>
+                    <li>
+                        <a href="/saudi-arabia/gifts-lp?promo=globalmenu_dt_hm">Saudi Arabia</a>
+                    </li>
+                    <li>
+                        <a href="/indonesia/gifts-lp?promo=globalmenu_dt_hm">Indonesia</a>
+                    </li>
+                    <li>
+                        <a href="/new-zealand/gifts-lp?promo=globalmenu_dt_hm">New Zealand</a>
+                    </li>
+                    <li>
+                        <a href="/germany/gifts-lp?promo=globalmenu_dt_hm">Germany</a>
+                    </li>
+                    <li>
+                        <a href="/malaysia/gifts-lp?promo=globalmenu_dt_hm">Malaysia</a>
+                    </li>
+                    <li>
+                        <a href="/netherlands/gifts-lp?promo=globalmenu_dt_hm">Netherland</a>
+                    </li>
+                    <li>
+                        <a href="/kuwait/gifts-lp?promo=globalmenu_dt_hm">Kuwait</a>
+                    </li>
+                    <li><a href="/oman/gifts-lp?promo=globalmenu_dt_hm">Oman</a></li>
+                    <li>
+                        <a href="/ireland/gifts-lp?promo=globalmenu_dt_hm">Ireland</a>
+                    </li>
+                    <li>
+                        <a href="/info/international?promo=globalmenu_dt_hm">Other Countries</a>
+                    </li>
+                </ul>
+            </section>
+        </div>
+    </div>
+    <div id="anniversarymenu" data-mnuname="Anniversary" class="">
+        <div class="sub-navmenubar">
+            <section>
+                <span class="bolder" id="sbmenu_bldr54">By FEATURED</span>
+                <ul>
+                    <li>
+                        <a href="/all-gifts/anniversary-lp?promo=anniversarymenu_dt_hm">All Gifts</a>
+                    </li>
+                    <li>
+                        <a href="/gifts-bestsellers/anniversary-lp?promo=anniversarymenu_dt_hm">Best Sellers</a>
+                    </li>
+                    <li>
+                        <a href="/premium-gifts/anniversary-lp?promo=anniversarymenu_dt_hm">Premium Gifts</a>
+                    </li>
+                    <li>
+                        <a href="/new-arrival-gifts/anniversary-lp?promo=anniversarymenu_dt_hm">New Arrivals</a>
+                    </li>
+                    <li>
+                        <a href="/unique-gifts/anniversary-lp?promo=anniversarymenu_dt_hm">Unique Gifts</a>
+                    </li>
+                </ul>
+            </section>
+            <section>
+                <span class="bolder" id="sbmenu_bldr55">GIFTS - BY CHOICE</span>
+                <ul>
+                    <li>
+                        <a href="/cakes/anniversary-lp?promo=anniversarymenu_dt_hm">Cakes</a>
+                    </li>
+                    <li>
+                        <a href="/flowers/anniversary-lp?promo=anniversarymenu_dt_hm">Flowers</a>
+                    </li>
+                    <li>
+                        <a href="/personalised-gifts/anniversary-lp?promo=anniversarymenu_dt_hm">Personalised
+                            Gifts</a>
+                    </li>
+                    <li>
+                        <a href="/chocolates/anniversary-lp?promo=anniversarymenu_dt_hm">Chocolates</a>
+                    </li>
+                    <li>
+                        <a href="/plants/anniversary-lp?promo=anniversarymenu_dt_hm">Plants</a>
+                    </li>
+                    <li>
+                        <a href="/flowers-n-cakes/anniversary-lp?promo=anniversarymenu_dt_hm">Flowers N Cakes</a>
+                    </li>
+                    <li>
+                        <a href="/combos/anniversary-lp?promo=anniversarymenu_dt_hm">Combos</a>
+                    </li>
+                    <li>
+                        <a href="/gift-hampers/anniversary-lp?promo=anniversarymenu_dt_hm">Gift Hampers</a>
+                    </li>
+                    <li>
+                        <a href="/flowers-n-chocolates-lp?promo=anniversarymenu_dt_hm">Flowers N Chocolates</a>
+                    </li>
+
+                    <li>
+                        <a href="/decoration-services/anniversary-lp?promo=anniversarymenu_dt_hm">Decorations
+                            Services</a>
+                    </li>
+                    <li>
+                        <a href="/gifts-n-guitarist-service/anniversary-lp?promo=anniversarymenu_dt_hm">Gifts &amp;
+                            Guitarist</a>
+                    </li>
+                    <li>
+                        <a href="/experiential-gifts/anniversary-lp?promo=anniversarymenu_dt_hm">Experiential
+                            Gifts</a>
+                    </li>
+                </ul>
+            </section>
+            <section>
+                <span class="bolder" id="sbmenu_bldr56">EXPLORE MORE</span>
+                <ul>
+                    <li>
+                        <a href="/decoration-services/anniversary-lp?promo=anniversarymenu_dt_hm">Surprises N
+                            Decorations</a>
+                    </li>
+                    <li>
+                        <a href="/gift-hampers/anniversary-lp?promo=anniversarymenu_dt_hm">Gift Hampers</a>
+                    </li>
+                    <li>
+                        <a href="/photo-frames/anniversary-lp?promo=anniversarymenu_dt_hm">Photo Frames</a>
+                    </li>
+                    <li>
+                        <a href="/exotic-flowers-lp?promo=anniversarymenu_dt_hm">Exotic Flowers</a>
+                    </li>
+                    <li>
+                        <a href="/home-decor-lp?promo=anniversarymenu_dt_hm">Home Décor</a>
+                    </li>
+                    <li>
+                        <a href="/home-living-gifts/anniversary-lp?promo=anniversarymenu_dt_hm">Home N Living</a>
+                    </li>
+                    <li>
+                        <a href="/cosmetics-n-spa-hampers/anniversary-lp?promo=anniversarymenu_dt_hm">Cosmetics N
+                            Spa Hampers</a>
+                    </li>
+                    <li>
+                        <a href="/gifts-mall-lp?promo=anniversarymenu_dt_hm">Gift Mall</a>
+                    </li>
+                </ul>
+            </section>
+            <section>
+                <span class="bolder" id="sbmenu_bldr56">Gifts - By Recipients</span>
+                <ul>
+                    <li>
+                        <a href="/gifts/anniversary/for-husband-lp?promo=anniversarymenu_dt_hm">For Husband</a>
+                    </li>
+                    <li>
+                        <a href="/gifts/anniversary/for-wife-lp?promo=anniversarymenu_dt_hm">For Wife</a>
+                    </li>
+                    <li>
+                        <a href="/gifts/anniversary/for-couples-lp?promo=anniversarymenu_dt_hm">For Couples</a>
+                    </li>
+                    <li>
+                        <a href="/gifts/anniversary/for-parents-lp?promo=anniversarymenu_dt_hm">For Parents</a>
+                    </li>
+                </ul>
+            </section>
+
+            <section>
+                <span class="bolder" id="sbmenu_bldr56">GIFTS BY PRICE</span>
+                <ul>
+
+
+                    <li>
+                        <a href="/all-gifts/anniversary-lp?anniversarymenu=&amp;fq-listprice=500.0%20TO%20999.0">Gifts Rs500 -
+                            Rs1000</a>
+                    </li>
+                    <li>
+                        <a href="/all-gifts/anniversary-lp?anniversarymenu=&amp;fq-listprice=1000.0%20TO%201499.0&amp;fq-listprice=1500.0%20TO%201999.0">Gifts
+                            Rs1000 - Rs2000</a>
+                    </li>
+                    <li>
+                        <a href="/all-gifts/anniversary-lp?anniversarymenu=&amp;fq-listprice=2000.0%20TO%202499.0&amp;fq-listprice=2500.0%20TO%202999.0&amp;fq-listprice=3000.0%20TO%20%20*">Gifts
+                            above Rs2000</a>
+                    </li>
+                </ul>
+            </section>
+
+            <section>
+                <span class="bolder" id="sbmenu_bldr56">GIFTS FOR </span>
+                <ul>
+                    <li>
+                        <a href="/gifts/1st-anniversary-lp?promo=anniversarymenu_dt_hm">1st Anniversary</a>
+                    </li>
+                    <li>
+                        <a href="/gifts/10th-anniversary-lp?promo=anniversarymenu_dt_hm">10th Anniversary</a>
+                    </li>
+                    <li>
+                        <a href="/gifts/25th-anniversary-lp?promo=anniversarymenu_dt_hm">25th Anniversary</a>
+                    </li>
+                    <li>
+                        <a href="/gifts/50th-anniversary-lp?promo=anniversarymenu_dt_hm">50th Anniversary</a>
+                    </li>
+                </ul>
+            </section>
+
+            <section class="navBanner">
+                <a href="/all-gifts/anniversary-lp?promo=anniversarymenu_dt_hm_banner"><img loading="lazy" src="/assets/images/custom/nav-banners/Navigation-banner_Anniversary_feb.jpg" alt="Anniversary Gifts" /></a>
+            </section>
+        </div>
+    </div>
+</div>
+</nav>
+</div>
+
+
+#diwalimenu .navBanner {
+    width: 190px;
+    display: table-cell;
+    text-align: left;
+    vertical-align: top;
+    margin: 0px;
+    padding: 5px 0 0;
+  }
+  
+  #diwalimenu .navBanner a {
+    padding: 3px 8px !important;
+  }
+  
+  .navBanner a {
+    text-align: center;
+    display: block;
+  }
+  
+  .highlight-navigations-url {
+    color: #e53333 !important;
+  }
+  
+  #navmenubar .header-wrapper>div a {
+    padding: 7px 5px;
+  }
+  
+  #navmenubar .sub-navmenubar img {
+    border-radius: 4px;
+    max-width: 100%;
+  }
+  
+  #navmenubar .sub-navmenubar ul {
+    padding-top: 5px !important;
+  }
+  
+  #navmenubar .header-wrapper span.upcoming {
+    color: #e53333;
+  }
+  
+  .bolder {
+    font-weight: 500 !important;
+    display: block;
+  }
+  
+  #navmenubar .header-wrapper ul.mproducts li a {
+    padding: 8px 0;
+  }
+  
+  #navmenubar .header-wrapper ul li span.menuProducts {
+    display: block;
+    width: 100%;
+  }
+  
+  #navmenubar .header-wrapper ul li span.menuProducts i {
+    vertical-align: top;
+    bottom: 0 !important;
+  }
+  
+  #navmenubar .header-wrapper ul li span.menuProducts img {
+    max-width: 90px;
+    display: inline-block;
+  }
+  
+  #navmenubar .header-wrapper ul li span.menuProductPrice {
+    display: inline-block;
+    color: #e53333;
+    margin-left: 5px;
+    vertical-align: top;
+    padding-left: 10px;
+    position: relative;
+  }
+  
+  #navmenubar .header-wrapper ul li span.menuProductPrice:before {
+    content: '';
+    position: absolute;
+    left: 0;
+  }
+  
+  #navmenubar .header-wrapper span a {
+    text-transform: uppercase;
+    color: #2278b8;
+    font-size: 14px;
+    padding: 0;
+    text-decoration: underline;
+    line-height: 1.4;
+  }
+  
+  .no-arr {
+    padding-top: 7px;
+  }
+  
+  .no-arr li {
+    margin-bottom: 5px;
+  }
+  
+  .no-arr li span.new {
+    top: -3px;
+  }
+  
+  .no-arrow:after {
+    display: none !important;
+  }
+  
+  .special {
+    color: #4a285f !important;
+    font-weight: 500 !important;
+  }
+  
+  .nav-banner-sec a {
+    text-align: center;
+  }
+  
+  .nav-banner-sec a img {
+    display: inline-block;
+  }
+  
+  #navmenubar .header-wrapper span {
+    color: #222;
+    font-size: 14px;
+    font-weight: 300;
+    margin: 0;
+    padding: 5px;
+    text-transform: uppercase;
+  }
+  
+  #navmenubar .header-wrapper div section ul li a:after {
+    content: '\e315';
+    font-family: 'Material Icons';
+    font-size: 16px;
+    right: 1%;
+    opacity: 0;
+    display: none;
+    vertical-align: middle;
+    margin-top: -2px;
+    line-height: 1;
+    position: relative;
+    transition: all ease-in-out 0.25s;
+  }
+  
+  #navmenubar .header-wrapper div section ul li a:hover:after {
+    right: 0;
+    opacity: 1;
+  }
+  
+  .new {
+    color: #fff !important;
+    padding: 1px 2px !important;
+    border-radius: 16px !important;
+    font-size: 8px !important;
+    position: absolute !important;
+    text-transform: uppercase !important;
+    top: 6px !important;
+    left: inherit !important;
+    text-align: center !important;
+    margin-left: 7px !important;
+    width: 32px !important;
+    height: 16px !important;
+    line-height: 15px;
+    font-weight: 500 !important;
+    background: rgb(234, 30, 97) !important;
+    background: linear-gradient(107deg,
+        rgba(234, 30, 97, 1) 43%,
+        rgba(245, 100, 54, 1) 100%) !important;
+  }
+  
+  .new:after {
+    display: none;
+  }
+  
+  #navmenubar .header-wrapper ul li a:after {
+    content: '\e313';
+    font-family: 'Material Icons';
+    line-height: 13px;
+    font-size: 16px;
+    margin-left: 5px;
+    vertical-align: middle;
+  }
+  
+  @media (max-width: 1280px) {
+    #navmenubar .header-wrapper>ul>li a {
+      padding: 15px 5px;
+    }
+  }
+  
+  .mtop20 {
+    margin-top: 20px !important;
+  }
+  
+  

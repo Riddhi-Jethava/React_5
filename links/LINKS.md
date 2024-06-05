@@ -28,3 +28,6 @@ npm i redux react-redux
 
 > curd
 https://cdn.dribbble.com/userupload/6990216/file/original-83dbdafb88027d622376a9abf591f9eb.png?resize=840x630&vertical=center
+
+> resume 
+https://www.canva.com/design/DAGDlQVmHDI/phaM-d-i_wmFI_D96U-8lg/edit?utm_content=DAGDlQVmHDI&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton

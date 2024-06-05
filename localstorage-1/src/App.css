@@ -1,0 +1,19 @@
+.container-fluid{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOW-stYuQL61DUTnm3Tkk8vceRPpW4SoSfczFAxGz4CVk71TXbNPQZrQf6cfPZPTUB180&usqp=CAU");
+    background-size: cover;
+}
+
+#mainboard{
+    /* background-color: rgba(211, 211, 211, 0.575); */
+    background-color: rgb(19, 19, 57);  
+    color: whitesmoke;
+}
+
+#grey{
+    background-color: lightgrey;
+}
+
+#task{
+    height: auto;
+    background-color: whitesmoke;
+}
