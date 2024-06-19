@@ -16,7 +16,6 @@ https://tunis-nextjs.netlify.app/home-dark
 > todolist app 
 https://www.behance.net/gallery/165077155/Task-Manager-App?tracking_source=search_projects|todo+list&l=18
 
-
 > news api
 d5e726218e3c4a219bf18df67313cb85
 
@@ -31,3 +30,6 @@ https://cdn.dribbble.com/userupload/6990216/file/original-83dbdafb88027d622376a9
 
 > resume 
 https://www.canva.com/design/DAGDlQVmHDI/phaM-d-i_wmFI_D96U-8lg/edit?utm_content=DAGDlQVmHDI&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
+
+> Axios
+npm i axios

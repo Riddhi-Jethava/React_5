@@ -1,0 +1,25 @@
+.spinner-border{
+    margin-left: 50%; 
+    margin-top: 20%;
+    font-size: 150px;
+}
+
+.details{
+    width: 350px;
+}
+
+
+.overtext{
+    overflow-x: auto;
+    /* Enable vertical scrolling */
+    scrollbar-width: none;
+    /* Hide the scrollbar in Firefox */
+    -ms-overflow-style: none;
+    /* Hide the scrollbar in IE/Edge */
+    position: relative;
+}
+
+.overtext::-webkit-scrollbar {
+    display: none;
+    /* Hide the scrollbar in WebKit browsers (Chrome, Safari) */
+}

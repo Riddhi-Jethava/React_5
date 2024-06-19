@@ -1,7 +1,6 @@
 import React from 'react'
 import { useState, useEffect } from 'react'
 
-
 function Calculator() {
 
     const [preState, setPreState] = useState(" ")
@@ -62,7 +61,7 @@ function Calculator() {
                 <div className="btn" onClick={() => inputNum()}>.</div>
                 <div className="btn" onClick={() => equals()}>=</div>
             </div>
-        </div >
+        </div>
     )
 }
 

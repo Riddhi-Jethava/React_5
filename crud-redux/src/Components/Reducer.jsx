@@ -9,6 +9,9 @@ const counterReducer = (state = initialState , action) => {
         case INCREMENT : return {
             ...state,
         }
+        case DECREMENT : return {
+            ...state
+        }
     }
 }
-//riddhiiee08 up work
+//riddhiiee08 up, work
