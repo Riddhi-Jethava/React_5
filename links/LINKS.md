@@ -33,3 +33,9 @@ https://www.canva.com/design/DAGDlQVmHDI/phaM-d-i_wmFI_D96U-8lg/edit?utm_content
 
 > Axios
 npm i axios
+
+>json server start command
+npx json-server --watch db.json --port 8000
+
+>json server npm
+npm i json-server

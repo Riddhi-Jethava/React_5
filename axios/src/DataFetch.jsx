@@ -40,6 +40,7 @@ function DataFetch() {
                         </div>
                         {/* <hr /> */}
                     </div>
+                    
                 ))
             }
         </div>
