@@ -13,7 +13,7 @@ function PostingData() {
 
     const handleSubmit=(event)=>{
         console.log(post)
-        event.preventDefault()
+        event.preventDefault()  
         axios.post('http://localhost:8000/post', post )
         .then((res)=>{
             console.log(res)
