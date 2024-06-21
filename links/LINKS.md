@@ -25,6 +25,16 @@ npm install react-router-dom
 > redux
 npm i redux react-redux
 
+
+**  React Icon  **
+npm install react-icons --save
+
+**  Router      **
+npm i -D react-router-dom
+
+**   Router  **
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+
 > curd
 https://cdn.dribbble.com/userupload/6990216/file/original-83dbdafb88027d622376a9abf591f9eb.png?resize=840x630&vertical=center
 

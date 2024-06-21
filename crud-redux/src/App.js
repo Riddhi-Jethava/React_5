@@ -1,13 +1,21 @@
-import './App.css';
-import "bootstrap/dist/css/bootstrap.min.css";
-import "bootstrap/dist/js/bootstrap.bundle.min";
 
-function App() {
+import React from 'react';
+import { Provider } from 'react-redux';
+import store from './store';
+import StudentList from './StudentList';
+import AddStudentForm from './AddStudentForm';
+import './App.css';
+
+const App = () => {
   return (
-    <div className="App">
-      
-    </div>
+    <Provider store={store}>
+      <div className="container">
+        <h1>Student Grade App</h1>
+        <AddStudentForm />
+        <StudentList />
+      </div>
+    </Provider>
   );
-}
+};
 
 export default App;
