@@ -11,8 +11,9 @@ function App() {
   return (
     <Router>
       <div className="App">
+        <GlassNavbar />
         <Routes>
-          <Route path="/nav" element={<GlassNavbar />}></Route>
+          {/* <Route path="/nav" element={<GlassNavbar />}></Route> */}
           <Route path="/inpbox" element={<InputBox />}></Route>
           <Route path="/textimg" element={<TextImage />}></Route>
         </Routes>

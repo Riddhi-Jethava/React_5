@@ -4,7 +4,7 @@ function TextImage() {
   return (
     <div>
       <div className="text-img">
-        BHARAT
+        RIDDHIIEE
       </div>
     </div>
   )

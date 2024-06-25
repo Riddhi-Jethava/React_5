@@ -4,13 +4,13 @@ import { Link } from 'react-router-dom'
 function GlassNavbar() {
     return (
         <div>
-            <header className="navbar">
-                <ul>
+            <header className="navbar border">
+                <ul className='d-flex justify-content-evenly align-items-center w-50'>
                     <li>
-                        <Link to='/inpbox'><a href="">InputBox</a></Link>
+                        <Link to='/inpbox' className='text-decoration-none text-white'>InputBox</Link>
                     </li>
                     <li>
-                        <a href="">TextImage</a>
+                        <Link to='/textimg' className='text-decoration-none text-white'>TextImage</Link>
                     </li>
                     <li>
                         <a href=""></a>

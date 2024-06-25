@@ -1,7 +1,22 @@
 /* Input Box */
-/* body{
-    background-color: black;
-} */
+body{
+    background: url("https://cdn.pixabay.com/photo/2018/04/28/22/03/tree-3358468_1280.jpg");
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover  ;
+}
+
+.navbar{
+    width: 550px;
+    margin: 30px 460px;
+    backdrop-filter: blur(30px);
+    box-shadow: 0px 0px 30px rgba(227,228,237,0.37);
+    border: 2px solid rgba(255, 255, 255, 0.18);
+}
+
+.navbar ul li{
+    list-style: none;
+}
 
 .input-group{
     position: relative;
@@ -15,11 +30,12 @@
     padding: 15px;
     font-size: 18px;
     color: #f5f5f5;
+    margin-left: 30px;
 }
 
 .label{
     position: absolute;
-    left: 15px;
+    left: 55px;
     columns: #9e9e9e;
     pointer-events: none;
     transform: translateY(15px);
@@ -39,9 +55,18 @@
     color: #fff;
 }
 
-
 /* text-image */
 
 .text-img {
+    font-weight: bolder;
     font-size: 100px;
+    height: 500px;
+    transform: translate(-50% , -50%);
+    left: 50%;
+    top: 50%;
+    position: absolute;
+    background: url("https://cdn.pixabay.com/photo/2018/06/30/09/31/background-image-3507320_1280.jpg");
+    background-size: contain;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
