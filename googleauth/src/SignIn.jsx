@@ -10,7 +10,7 @@ function SignIn() {
         signInWithPopup(auth,googleProvider)
         localStorage.setItem("email", value.user.email)
         .then(()=>{
-            setValue(value.user.email)
+            setValue(value.user. email)
         }) .catch((error)=>{
             alert(error)
         })
@@ -23,7 +23,7 @@ function SignIn() {
         } 
     },[])
 
-  return (
+  return ( 
     <div>
        {value ? <Home /> :<button onClick={handleClick}>Click here to connent with google</button>}
     </div>
