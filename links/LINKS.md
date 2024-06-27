@@ -49,3 +49,6 @@ npx json-server --watch db.json --port 8000
 
 >json server npm
 npm i json-server
+
+>firebase
+npm install --save firebase
