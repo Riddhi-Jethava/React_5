@@ -23,7 +23,7 @@ function Home() {
 
     return (
         <div>
-            <div className='home position-relative'>
+            <div className='home position-relative text-white'>
                 <div className="container-fluid Poppins-font p-0 m-0 ">
                     <div class="color-block d-none d-lg-block clippath"></div>
                     <div className="row p-5 m-0" id='home-row'>
@@ -52,7 +52,7 @@ function Home() {
                             <div className='d-flex flex-column align-items-center justify-content-evenly h-50 mt-5'>
                                 <FaHome className='rounded rounded-5 p-2' id='icon' />
                                 <Link to='/about'> <FaUser className='rounded rounded-5 p-2' id='icon' /></Link>
-                                <IoBag className='rounded rounded-5 p-2' id='icon' />
+                                   <IoBag className='rounded rounded-5 p-2' id='icon' />
                                 <IoIosMail className='rounded rounded-5 p-2' id='icon' />
                                 <TbMessages className='rounded rounded-5 p-2' id='icon' />
                             </div>
