@@ -33,7 +33,6 @@ function Signin() {
             <button className='signin-button' onClick={handleClick}>
                 Sign-in with Google
             </button>}
-            
       </div>
     </div>
   )
