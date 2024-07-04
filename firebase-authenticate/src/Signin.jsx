@@ -27,12 +27,13 @@ function Signin() {
   return (
     <div>
       <div className="signin-container">
-        <home
+        {value ? <home
         setValue={setValue}
-        />
+        /> :
             <button className='signin-button' onClick={handleClick}>
                 Sign-in with Google
-            </button>
+            </button>}
+            
       </div>
     </div>
   )
