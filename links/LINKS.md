@@ -9,7 +9,7 @@ import "bootstrap/dist/js/bootstrap.bundle.min";
 https://codepen.io/nathan-sr/pen/XWQwzrW 
 
 > portfolio
-1.https://tunis-nextjs.netlify.app/home-dark
+1. https://tunis-nextjs.netlify.app/home-dark
 /* https://tunis-nextjs.netlify.app/home-dark */
 
 2.https://kaleidoscopic-pie-2341a3.netlify.app/template/
@@ -25,7 +25,6 @@ npm install react-router-dom
 
 > redux
 npm i redux react-redux
-
 
 > React Icon  
 npm install react-icons --save
