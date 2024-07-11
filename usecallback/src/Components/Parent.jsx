@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useCallback, useState } from 'react'
 import Child from './Child'
 
 function Parent() {
@@ -9,7 +9,9 @@ function Parent() {
       setCount(count + 1)
     }
 
-    
+    const handleInc = useCallback(()=>{
+      setCounter(counter + 1)
+    }, [counter])
 
   return (
     <div>
@@ -17,7 +19,7 @@ function Parent() {
       <button onClick={handleIncrement}>
         plus
       </button>
-      <Child/>
+      <Child counter={counter} handleInc={handleInc} />
     </div>
   )
 }
