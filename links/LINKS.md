@@ -53,4 +53,10 @@ npm i json-server
 >firebase
 npm install --save firebase
 
-        
+> styled-components
+npm i styled-components
+
+>redux-toolkits
+
+>useHistory
+npm i use-history
