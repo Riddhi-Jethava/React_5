@@ -37,6 +37,11 @@ const Header = (props) => {
               <span>SERIES</span>
             </a>
           </NavMenu>
+
+          <Login>
+            LogIn
+          </Login>
+
     </Nav>
   )
 }
@@ -134,13 +139,15 @@ const NavMenu = styled.div`
 `;
 
 const Login = styled.a`
+height: 40px;
   background-color: rgba(0, 0, 0, 0.6);
-  padding: 8px 16px;
+  padding: 10px 16px;
   text-transform: uppercase;
   letter-spacing: 1.5px;
   border: 1px solid #f9f9f9;
   border-radius: 4px;
   transition: all 0.2s ease 0s;
+  margin-top: 14px;
 
   &:hover {
     background-color: #f9f9f9;
@@ -178,6 +185,6 @@ ${UserImg} {
         transition-duration: 1s;
     }
 }
-`;
+`;  
 
 export default Header

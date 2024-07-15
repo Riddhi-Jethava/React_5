@@ -53,6 +53,9 @@ npm i json-server
 >firebase
 npm install --save firebase
 
+>firebase-tools
+npm i firebase-tools
+
 > styled-components
 npm i styled-components
 
