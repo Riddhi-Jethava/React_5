@@ -60,6 +60,7 @@ npm i firebase-tools
 npm i styled-components
 
 >redux-toolkits
+npm i @reduxjs/toolkit
 
 >useHistory
 npm i use-history

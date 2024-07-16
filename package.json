@@ -3,6 +3,7 @@
     "bootstrap": "^5.3.3",
     "firebase": "^10.12.3",
     "firebase-tools": "^13.13.2",
+    "react-scripts": "^5.0.1",
     "use-history": "^1.4.1"
   },
   "devDependencies": {
