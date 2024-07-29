@@ -177,12 +177,8 @@ const Nav = ({ search, setSearch, searchproduct , cart }) => {
               </span>
             </button>
 
-            {/* <input type='text' value={search} placeholder='searh' onChange={(e) => setSearch(e.target.value)}></input>
-            <button onClick={searchproduct}><AiOutlineSearch /></button> */}
           </div>
-          {/* <div className='offer'>
-            <p>flat 10% over all iphone</p>
-          </div> */}
+          
         </div>
         <hr />
        

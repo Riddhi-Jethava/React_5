@@ -98,6 +98,13 @@ function TodoApp() {
                       ))
                     }
                   </div>
+
+                    <div className="contanier">
+                      <div className="row">
+                        <div className="col-lg-6"></div>
+                      </div>
+                    </div>
+
                 </div>
               </div>
             </div>

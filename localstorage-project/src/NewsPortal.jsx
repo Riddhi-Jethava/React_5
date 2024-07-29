@@ -22,7 +22,7 @@ function NewsPortal() {
         try {
             const response = await fetch(`https://newsapi.org/v2/everything?q=tesla&from=2024-04-10&sortBy=publishedAt&apiKey=d5e726218e3c4a219bf18df67313cb85`);
             const data = await response.json();
-            // console.log("API Response:", data); // Log the response for debugging
+            console.log("API Response:", data); // Log the response for debugging
             if (data.articles && data.articles.length > 0) { // Check if articles exist in the response
                 setArticales(data.articles);
                 setError(null);
